@@ -2,22 +2,26 @@ import os
 
 # get all files names in TestFiles directory
 from HERO_Project.GUI.MainWindow import MainWindows
-
+from HERO_Project.Load.Manipulation import Manipulation
 
 class LoadData:
     VMsPath = " "
-    VmList = []
-    window = MainWindows
+    vmLists = []
+    window = MainWindows()
 
     def __init__(self):
-        print("LoadData __init__")
         self.VMsPath = '/Users/alexandrmoshisnky/Desktop/HERO/HERO_Project/TestFiles/'
-        self.VmList = os.listdir(self.VMsPath)
+        self.vmLists = os.listdir(self.VMsPath)
 
     def printFilesNames(self):
-        print("LoadData printFilesNames")
-        print(self.VmList)
+        print(self.vmLists)
 
     def run(self):
-        print("LoadData run")
-        self.window(self.VmList[0])
+        print(self.vmLists)
+        for i in range(len(self.vmLists)):
+            zombie = "Zombie"
+            data = Manipulation.getAllDataFromFile(self.VMsPath+self.vmLists[i])
+            if Manipulation.combineAll(data):
+                zombie = "Not Zombie"
+            self.window.vmtabs(self.vmLists[i], zombie)
+        self.window.mainloop()
