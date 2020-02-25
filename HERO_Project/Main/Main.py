@@ -1,3 +1,3 @@
-from HERO_Project.Load.LoadData import LoadData
+from HERO_Project.GUI.MainWindow import MainWindows
 
-LoadData().run()
+MainWindows()
