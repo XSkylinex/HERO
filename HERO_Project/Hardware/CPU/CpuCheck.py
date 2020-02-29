@@ -1,8 +1,9 @@
-from datetime import datetime, timedelta
+import re
+from datetime import datetime
 
 
 class CpuCheck(object):
-    def __init__(self, date: datetime, cpu: str):
+    def __init__(self, date: datetime, cpu: float):
         self.date = date
         self.cpu = cpu
 
@@ -11,35 +12,20 @@ class CpuCheck(object):
         file1 = open(filepath, 'r')
         lines = file1.readlines()
         mans = []
-        for i in range(0, len(lines), 2):
-            date = datetime.strptime(lines[i].strip(), '%a %b %d %H:%M:%S %Z %Y')
-            cpu = lines[i + 1].strip()
+        for i in range(0, len(lines), 5):
+            date = datetime.strptime(lines[i].strip(), '%a %b %d %H:%M:%S %Z %Y') #Sat Feb 29 20:48:02 IST 2020
+            cpu = float(re.findall(r'[-+]?\d*\.\d+|\d+', lines[i + 1].strip())[0]) #CPU Average: %f #node cpu load 15 minutes average
             mans.append(CpuCheck(date, cpu))
         return mans
 
     @classmethod
-    def isZombie(cls, mans, startDate: datetime, endDate: datetime):
+    def isIdle(cls, mans):
+        minCPU = 0.05 #min(mans, key=lambda man: man.cpu).cpu  # check bug for <0.05 usage ~0.05
+        count = 0
         for i in range(len(mans) - 1):
-            if startDate < mans[i].date and mans[i].date < endDate and mans[i].cpu != mans[i + 1].cpu:
-                return True
-        return False
+            if minCPU < mans[i].cpu:
+                count += 1
+        return f"{int((1 - (count / len(mans))) * 100)}%"
 
-    @classmethod
-    def combineAll(cls, mans):
-        isZombieBool = False
-        skip = mans[0].date - timedelta(minutes=1)
-        for man in mans:
-            if man.date < skip:
-                continue
-            startDate = man.date
-            endDate = startDate + timedelta(minutes=10)
-            b = CpuCheck.isZombie(mans, startDate, endDate)
-            if b:
-                skip = endDate
-                isZombieBool = True
-
-        return isZombieBool
-
-
-#mans = Manipulation.getAllDataFromFile("/Users/alexandrmoshisnky/Desktop/HERO/HERO_Project/TestFiles/test01.txt")
-# print(mans[0].date)
+mans = CpuCheck.getAllDataFromFile("/Users/alexandrmoshisnky/Desktop/HERO/HERO_Project/TestFiles/test06.txt")
+print(CpuCheck.isIdle(mans))

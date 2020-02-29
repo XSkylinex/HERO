@@ -24,3 +24,8 @@ class LoadData:
                 zombie = "Not Zombie"
             self.window.vmtabs(self.vmLists[i], zombie)
         self.window.mainloop()
+
+
+# cpu min ~ all time = idle
+# cpu min !~ all time = not idle
+# 0.06 0.06 0.05 0.06 0.06 0.06 0.06 0.06 != idle
