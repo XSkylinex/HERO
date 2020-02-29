@@ -2,7 +2,7 @@ import os
 
 # get all files names in TestFiles directory
 
-from HERO_Project.Load.Manipulation import Manipulation
+from HERO_Project.Hardware.CPU.CpuCheck import CpuCheck
 
 
 class LoadData:
@@ -19,8 +19,8 @@ class LoadData:
             if not self.vmLists[i].endswith(".txt"):
                 continue
             zombie = "Zombie"
-            data = Manipulation.getAllDataFromFile(self.VMsPath + self.vmLists[i])
-            if Manipulation.combineAll(data):
+            data = CpuCheck.getAllDataFromFile(self.VMsPath + self.vmLists[i])
+            if CpuCheck.combineAll(data):
                 zombie = "Not Zombie"
             self.window.vmtabs(self.vmLists[i], zombie)
         self.window.mainloop()

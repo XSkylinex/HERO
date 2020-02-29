@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 
 
-class Manipulation(object):
+class CpuCheck(object):
     def __init__(self, date: datetime, cpu: str):
         self.date = date
         self.cpu = cpu
@@ -14,7 +14,7 @@ class Manipulation(object):
         for i in range(0, len(lines), 2):
             date = datetime.strptime(lines[i].strip(), '%a %b %d %H:%M:%S %Z %Y')
             cpu = lines[i + 1].strip()
-            mans.append(Manipulation(date, cpu))
+            mans.append(CpuCheck(date, cpu))
         return mans
 
     @classmethod
@@ -33,7 +33,7 @@ class Manipulation(object):
                 continue
             startDate = man.date
             endDate = startDate + timedelta(minutes=10)
-            b = Manipulation.isZombie(mans, startDate, endDate)
+            b = CpuCheck.isZombie(mans, startDate, endDate)
             if b:
                 skip = endDate
                 isZombieBool = True
@@ -41,5 +41,5 @@ class Manipulation(object):
         return isZombieBool
 
 
-#mans = Manipulation.getAllDataFromFile("/Users/alexandrmoshisnky/Desktop/HERO/HERO_Project/TestFiles/final_project.txt")
+#mans = Manipulation.getAllDataFromFile("/Users/alexandrmoshisnky/Desktop/HERO/HERO_Project/TestFiles/test01.txt")
 # print(mans[0].date)

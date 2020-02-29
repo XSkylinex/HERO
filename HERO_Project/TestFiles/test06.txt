@@ -1,0 +1,450 @@
+Sat Feb 29 20:25:40 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 162430 #node_network_transmit_packets_total
+Network receive: 481246 #node_network_receive_packets_total
+User RAM: 8.7121
+Sat Feb 29 20:26:02 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 162529 #node_network_transmit_packets_total
+Network receive: 481370 #node_network_receive_packets_total
+User RAM: 8.7121
+Sat Feb 29 20:27:03 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 162631 #node_network_transmit_packets_total
+Network receive: 481518 #node_network_receive_packets_total
+User RAM: 8.7121
+Sat Feb 29 20:28:02 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 162726 #node_network_transmit_packets_total
+Network receive: 481656 #node_network_receive_packets_total
+User RAM: 8.7121
+Sat Feb 29 20:28:15 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 162822 #node_network_transmit_packets_total
+Network receive: 481774 #node_network_receive_packets_total
+Used RAM: 8.7121 /#Used RAM
+Sat Feb 29 20:28:41 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 162922 #node_network_transmit_packets_total
+Network receive: 481899 #node_network_receive_packets_total
+Used RAM: 8.7121 #Used RAM
+Sat Feb 29 20:29:02 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 163018 #node_network_transmit_packets_total
+Network receive: 482017 #node_network_receive_packets_total
+Used RAM: 8.7121 #Used RAM
+Sat Feb 29 20:30:03 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 163107 #node_network_transmit_packets_total
+Network receive: 482151 #node_network_receive_packets_total
+Used RAM: 8.7121 #Used RAM
+Sat Feb 29 20:31:02 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 163194 #node_network_transmit_packets_total
+Network receive: 482282 #node_network_receive_packets_total
+Used RAM: 8.7121 #Used RAM
+Sat Feb 29 20:32:03 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 163282 #node_network_transmit_packets_total
+Network receive: 482414 #node_network_receive_packets_total
+Used RAM: 8.7121 #Used RAM
+Sat Feb 29 20:33:03 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 163369 #node_network_transmit_packets_total
+Network receive: 482547 #node_network_receive_packets_total
+Used RAM: 8.7121 #Used RAM
+Sat Feb 29 20:34:02 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 163466 #node_network_transmit_packets_total
+Network receive: 482689 #node_network_receive_packets_total
+Used RAM: 8.7121 #Used RAM
+Sat Feb 29 20:35:03 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 163561 #node_network_transmit_packets_total
+Network receive: 482825 #node_network_receive_packets_total
+Used RAM: 8.60811 #Used RAM
+Sat Feb 29 20:36:03 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 163659 #node_network_transmit_packets_total
+Network receive: 482967 #node_network_receive_packets_total
+Used RAM: 8.715 #Used RAM
+Sat Feb 29 20:37:02 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 163749 #node_network_transmit_packets_total
+Network receive: 483099 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:38:03 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 163837 #node_network_transmit_packets_total
+Network receive: 483233 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:39:02 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 163937 #node_network_transmit_packets_total
+Network receive: 483377 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:40:02 IST 2020
+CPU Average: 0.98 #node cpu load 15 minutes average
+Network transmit: 164027 #node_network_transmit_packets_total
+Network receive: 483511 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:41:03 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 164129 #node_network_transmit_packets_total
+Network receive: 483657 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:42:02 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 164225 #node_network_transmit_packets_total
+Network receive: 483797 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:43:03 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 164319 #node_network_transmit_packets_total
+Network receive: 483935 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:44:03 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 164410 #node_network_transmit_packets_total
+Network receive: 484070 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:45:02 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 164497 #node_network_transmit_packets_total
+Network receive: 484200 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:46:03 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 164591 #node_network_transmit_packets_total
+Network receive: 484339 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:47:03 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 164684 #node_network_transmit_packets_total
+Network receive: 484476 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:48:02 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 164781 #node_network_transmit_packets_total
+Network receive: 484618 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:49:03 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 164881 #node_network_transmit_packets_total
+Network receive: 484761 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:50:02 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 164974 #node_network_transmit_packets_total
+Network receive: 484900 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:51:02 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 165069 #node_network_transmit_packets_total
+Network receive: 485039 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:52:03 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 165173 #node_network_transmit_packets_total
+Network receive: 485185 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:53:02 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 165270 #node_network_transmit_packets_total
+Network receive: 485325 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:54:03 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 165360 #node_network_transmit_packets_total
+Network receive: 485464 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:55:03 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 165461 #node_network_transmit_packets_total
+Network receive: 485605 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:56:02 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 165551 #node_network_transmit_packets_total
+Network receive: 485738 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:57:03 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 165635 #node_network_transmit_packets_total
+Network receive: 485867 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:58:02 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 165726 #node_network_transmit_packets_total
+Network receive: 486002 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 20:59:03 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 165817 #node_network_transmit_packets_total
+Network receive: 486137 #node_network_receive_packets_total
+Used RAM: 8.70826 #Used RAM
+Sat Feb 29 21:00:03 IST 2020
+CPU Average: 0.99 #node cpu load 15 minutes average
+Network transmit: 165917 #node_network_transmit_packets_total
+Network receive: 486281 #node_network_receive_packets_total
+Used RAM: 8.605 #Used RAM
+Sat Feb 29 21:01:02 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 166006 #node_network_transmit_packets_total
+Network receive: 486417 #node_network_receive_packets_total
+Used RAM: 8.60292 #Used RAM
+Sat Feb 29 21:02:03 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 166113 #node_network_transmit_packets_total
+Network receive: 486567 #node_network_receive_packets_total
+Used RAM: 8.71293 #Used RAM
+Sat Feb 29 21:03:03 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 166204 #node_network_transmit_packets_total
+Network receive: 486700 #node_network_receive_packets_total
+Used RAM: 8.71293 #Used RAM
+Sat Feb 29 21:04:02 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 166296 #node_network_transmit_packets_total
+Network receive: 486835 #node_network_receive_packets_total
+Used RAM: 8.71293 #Used RAM
+Sat Feb 29 21:05:03 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 166388 #node_network_transmit_packets_total
+Network receive: 486972 #node_network_receive_packets_total
+Used RAM: 8.71293 #Used RAM
+Sat Feb 29 21:06:03 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 166488 #node_network_transmit_packets_total
+Network receive: 487116 #node_network_receive_packets_total
+Used RAM: 8.71293 #Used RAM
+Sat Feb 29 21:07:02 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 166578 #node_network_transmit_packets_total
+Network receive: 487252 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:08:03 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 166676 #node_network_transmit_packets_total
+Network receive: 487392 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:09:02 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 166773 #node_network_transmit_packets_total
+Network receive: 487533 #node_network_receive_packets_total
+Used RAM: 8.71345 #Used RAM
+Sat Feb 29 21:10:03 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 166870 #node_network_transmit_packets_total
+Network receive: 487674 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:11:03 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 166964 #node_network_transmit_packets_total
+Network receive: 487816 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:12:02 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 167057 #node_network_transmit_packets_total
+Network receive: 487952 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:13:03 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 167159 #node_network_transmit_packets_total
+Network receive: 488094 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:14:03 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 167257 #node_network_transmit_packets_total
+Network receive: 488237 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:15:02 IST 2020
+CPU Average: 1 #node cpu load 15 minutes average
+Network transmit: 167354 #node_network_transmit_packets_total
+Network receive: 488377 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:16:03 IST 2020
+CPU Average: 1.01 #node cpu load 15 minutes average
+Network transmit: 167449 #node_network_transmit_packets_total
+Network receive: 488521 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:17:02 IST 2020
+CPU Average: 1.01 #node cpu load 15 minutes average
+Network transmit: 167548 #node_network_transmit_packets_total
+Network receive: 488660 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:18:02 IST 2020
+CPU Average: 1.01 #node cpu load 15 minutes average
+Network transmit: 167646 #node_network_transmit_packets_total
+Network receive: 488804 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:19:03 IST 2020
+CPU Average: 1.01 #node cpu load 15 minutes average
+Network transmit: 167751 #node_network_transmit_packets_total
+Network receive: 488951 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:20:02 IST 2020
+CPU Average: 1.01 #node cpu load 15 minutes average
+Network transmit: 167847 #node_network_transmit_packets_total
+Network receive: 489090 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:21:03 IST 2020
+CPU Average: 1.01 #node cpu load 15 minutes average
+Network transmit: 167934 #node_network_transmit_packets_total
+Network receive: 489222 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:22:03 IST 2020
+CPU Average: 1.01 #node cpu load 15 minutes average
+Network transmit: 168036 #node_network_transmit_packets_total
+Network receive: 489372 #node_network_receive_packets_total
+Used RAM: 8.71189 #Used RAM
+Sat Feb 29 21:23:02 IST 2020
+CPU Average: 1.01 #node cpu load 15 minutes average
+Network transmit: 168131 #node_network_transmit_packets_total
+Network receive: 489506 #node_network_receive_packets_total
+Used RAM: 8.77634 #Used RAM
+Sat Feb 29 21:24:03 IST 2020
+CPU Average: 1.01 #node cpu load 15 minutes average
+Network transmit: 168217 #node_network_transmit_packets_total
+Network receive: 489637 #node_network_receive_packets_total
+Used RAM: 8.60791 #Used RAM
+Sat Feb 29 21:25:02 IST 2020
+CPU Average: 1.01 #node cpu load 15 minutes average
+Network transmit: 168307 #node_network_transmit_packets_total
+Network receive: 489771 #node_network_receive_packets_total
+Used RAM: 8.71013 #Used RAM
+Sat Feb 29 21:26:02 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 168403 #node_network_transmit_packets_total
+Network receive: 489910 #node_network_receive_packets_total
+Used RAM: 8.71013 #Used RAM
+Sat Feb 29 21:27:03 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 168501 #node_network_transmit_packets_total
+Network receive: 490057 #node_network_receive_packets_total
+Used RAM: 8.70857 #Used RAM
+Sat Feb 29 21:28:02 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 168601 #node_network_transmit_packets_total
+Network receive: 490200 #node_network_receive_packets_total
+Used RAM: 8.70857 #Used RAM
+Sat Feb 29 21:29:03 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 168695 #node_network_transmit_packets_total
+Network receive: 490338 #node_network_receive_packets_total
+Used RAM: 8.70857 #Used RAM
+Sat Feb 29 21:30:03 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 168795 #node_network_transmit_packets_total
+Network receive: 490480 #node_network_receive_packets_total
+Used RAM: 8.70857 #Used RAM
+Sat Feb 29 21:31:02 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 168885 #node_network_transmit_packets_total
+Network receive: 490614 #node_network_receive_packets_total
+Used RAM: 8.64993 #Used RAM
+Sat Feb 29 21:32:03 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 168981 #node_network_transmit_packets_total
+Network receive: 490754 #node_network_receive_packets_total
+Used RAM: 8.70182 #Used RAM
+Sat Feb 29 21:33:02 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 169066 #node_network_transmit_packets_total
+Network receive: 490886 #node_network_receive_packets_total
+Used RAM: 8.70182 #Used RAM
+Sat Feb 29 21:34:02 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 169161 #node_network_transmit_packets_total
+Network receive: 491022 #node_network_receive_packets_total
+Used RAM: 8.70182 #Used RAM
+Sat Feb 29 21:35:03 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 169252 #node_network_transmit_packets_total
+Network receive: 491157 #node_network_receive_packets_total
+Used RAM: 8.70182 #Used RAM
+Sat Feb 29 21:36:02 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 169352 #node_network_transmit_packets_total
+Network receive: 491304 #node_network_receive_packets_total
+Used RAM: 8.70182 #Used RAM
+Sat Feb 29 21:37:02 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 169455 #node_network_transmit_packets_total
+Network receive: 491450 #node_network_receive_packets_total
+Used RAM: 8.70182 #Used RAM
+Sat Feb 29 21:38:03 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 169553 #node_network_transmit_packets_total
+Network receive: 491591 #node_network_receive_packets_total
+Used RAM: 8.70182 #Used RAM
+Sat Feb 29 21:39:02 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 169647 #node_network_transmit_packets_total
+Network receive: 491731 #node_network_receive_packets_total
+Used RAM: 8.70182 #Used RAM
+Sat Feb 29 21:40:02 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 169741 #node_network_transmit_packets_total
+Network receive: 491868 #node_network_receive_packets_total
+Used RAM: 8.70182 #Used RAM
+Sat Feb 29 21:41:03 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 169842 #node_network_transmit_packets_total
+Network receive: 492011 #node_network_receive_packets_total
+Used RAM: 8.70182 #Used RAM
+Sat Feb 29 21:42:02 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 169942 #node_network_transmit_packets_total
+Network receive: 492155 #node_network_receive_packets_total
+Used RAM: 8.70182 #Used RAM
+Sat Feb 29 21:43:03 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 170032 #node_network_transmit_packets_total
+Network receive: 492290 #node_network_receive_packets_total
+Used RAM: 8.70182 #Used RAM
+Sat Feb 29 21:44:03 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 170121 #node_network_transmit_packets_total
+Network receive: 492423 #node_network_receive_packets_total
+Used RAM: 8.70182 #Used RAM
+Sat Feb 29 21:45:02 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 170214 #node_network_transmit_packets_total
+Network receive: 492559 #node_network_receive_packets_total
+Used RAM: 8.70182 #Used RAM
+Sat Feb 29 21:46:03 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 170309 #node_network_transmit_packets_total
+Network receive: 492701 #node_network_receive_packets_total
+Used RAM: 8.71334 #Used RAM
+Sat Feb 29 21:47:03 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 170413 #node_network_transmit_packets_total
+Network receive: 492849 #node_network_receive_packets_total
+Used RAM: 8.71127 #Used RAM
+Sat Feb 29 21:48:02 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 170521 #node_network_transmit_packets_total
+Network receive: 493000 #node_network_receive_packets_total
+Used RAM: 8.71127 #Used RAM
+Sat Feb 29 21:49:03 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 170617 #node_network_transmit_packets_total
+Network receive: 493137 #node_network_receive_packets_total
+Used RAM: 8.71127 #Used RAM
+Sat Feb 29 21:50:02 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 170714 #node_network_transmit_packets_total
+Network receive: 493278 #node_network_receive_packets_total
+Used RAM: 8.71127 #Used RAM
+Sat Feb 29 21:51:02 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 170816 #node_network_transmit_packets_total
+Network receive: 493423 #node_network_receive_packets_total
+Used RAM: 8.71127 #Used RAM
+Sat Feb 29 21:52:03 IST 2020
+CPU Average: 1.02 #node cpu load 15 minutes average
+Network transmit: 170911 #node_network_transmit_packets_total
+Network receive: 493563 #node_network_receive_packets_total
+Used RAM: 8.71127 #Used RAM
