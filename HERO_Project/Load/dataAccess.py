@@ -1,6 +1,5 @@
 import os
 
-
 class dataAccess:
     source = "file"
     path = " "
@@ -17,6 +16,8 @@ class dataAccess:
 
     @classmethod
     def getOnVMs(cls):
+        #TODO: Figure out how to run virsh commands
+
         # returns an array/list of the VM names
         pass
 

@@ -1,6 +1,7 @@
 import re
 from datetime import datetime
 
+# TODO: check if should be written in the same file or not
 
 class CpuCheck(object):
     def __init__(self, date: datetime, cpu: float):

@@ -10,19 +10,19 @@ threshold_off = 40
 result_path = " "
 
 
-# load stat tests as a dictionary of methods - Should this be a method or an import????
+# TODO: load stat tests as a dictionary of methods - Should this be a method or an import????
 
 def testVM(stats, state):
     # run the tests with the weights and sum the results
     return 50
+
 
 if __name__ == '__main__':
     # get the necessary information about the system
     conn = dataAccess("file", "/data/")
     vms_on = dataAccess.getOnVMs()
     vms_off = dataAccess.getOffVMs()
-    # if we want one list and make a dict/tuples of the vm name and state
-    # and change the for loops as needed
+    # TODO: Decide if we want one list and make a dict/tuples of the vm name and state and change the for loops as needed
 
     for vm in vms_on:
         # get the stats(data) about the current VM into a dictionary
