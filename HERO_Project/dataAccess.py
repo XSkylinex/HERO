@@ -8,10 +8,49 @@ class dataAccess:
         # load the data sets from configuration file
 
     def loader(self, name, state):
-        # TODO: complete
-        if self.source == "file":
-            # insert all of the data in the file to a dictionary divided by the beginning of the line
+        # the vm stats divided to the different categories
+        stats = {'vm_name': name, 'state': state}
+
+        if state == 'on':
+            self.loadOn(stats)
+        if state == 'off':
+            # read the virsh commands from the kvm itself
             pass
+
+    def loadOn(self, stats):
+        cpu = []
+        nic = []
+        ram = []
+        mismatch = []
+
+        if self.source == "file":
+            # if files become too big, can be changed to .readline() with a while and another .readline at the end
+            file = open(self.path, 'r')
+            lines = file.readlines()
+            file.close()
+
+            for line in lines:
+                if line.startswith("Date: "):
+                    # add to all the strings that care for date
+                    cpu.append(line)
+                    nic.append(line)
+                    ram.append(line)
+
+                if line.startswith("CPU Average:"):
+                    # add to cpu
+                    cpu.append(line)
+                elif line.startswith("Network "):
+                    nic.append(line)
+                elif line.startswith("Used RAM:"):
+                    ram.append(line)
+                else:
+                    mismatch.append(line)
+
+            # TODO: do we want a list or string
+            stats['cpu'] = '\n'.join(cpu)
+            stats['nic'] = '\n'.join(nic)
+            stats['ram'] = '\n'.join(ram)
+            stats['mismatch'] = '\n'.join(mismatch)
 
     @classmethod
     def getOnVMs(cls):
@@ -24,3 +63,9 @@ class dataAccess:
     def getOffVMs(cls):
         # returns an array/list of the VM names
         pass
+
+    @classmethod
+    def geAllVMs(cls):
+        # returns an array/list of the VM names
+        pass
+
