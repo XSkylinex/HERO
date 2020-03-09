@@ -1,5 +1,3 @@
-import os
-
 class dataAccess:
     source = "file"
     path = " "
@@ -10,13 +8,14 @@ class dataAccess:
         # load the data sets from configuration file
 
     def loader(self, name, state):
+        # TODO: complete
         if self.source == "file":
             # insert all of the data in the file to a dictionary divided by the beginning of the line
             pass
 
     @classmethod
     def getOnVMs(cls):
-        #TODO: Figure out how to run virsh commands
+        # TODO: Figure out how to run virsh commands
 
         # returns an array/list of the VM names
         pass

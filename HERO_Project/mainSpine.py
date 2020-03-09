@@ -1,19 +1,24 @@
-from HERO_Project.Load.dataAccess import *
+from HERO_Project.dataAccess import *
+from HERO_Project.tests import *
 
 # load stat weights as a dictionary
 # load threshold
 # load result path
 weights = {}
-tests = {}
 threshold_on = 60
 threshold_off = 40
 result_path = " "
 
 
-# TODO: load stat tests as a dictionary of methods - Should this be a method or an import????
-
 def testVM(stats, state):
     # run the tests with the weights and sum the results
+    # TODO: actually make the tests sum something
+    sum = 0
+    if state == "on":
+        cpuTest(stats("cpu"))
+        ageTest(stats("age"))
+    elif state == "off":
+        ageTest(stats("age"))
     return 50
 
 
