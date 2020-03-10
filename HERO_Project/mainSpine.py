@@ -1,4 +1,4 @@
-import dataAccess
+import dataAccess as connection
 import tests
 import configuration as config
 
@@ -18,7 +18,7 @@ def testVM(stats, state):
 
 if __name__ == '__main__':
     zombies = []
-    conn = dataAccess("file", config.data_path)
+    conn = connection.dataAccess("file", config.data_path)
     vms_on = dataAccess.getOnVMs()
     vms_off = dataAccess.getOffVMs()
 
