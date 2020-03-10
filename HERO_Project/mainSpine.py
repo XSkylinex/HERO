@@ -1,6 +1,6 @@
-import .dataAccess as dataAccess
-import .tests as tests
-import .configuration as config
+import dataAccess
+import tests
+import configuration as config
 
 
 def testVM(stats, state):

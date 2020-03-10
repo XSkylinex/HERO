@@ -1,6 +1,6 @@
 import re
 from datetime import datetime
-import HERO_Project.configuration
+import configuration as config
 
 # get the configuration data to fit the tests
 # test the given data to check if its a zombie
