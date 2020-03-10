@@ -10,3 +10,4 @@ When adding new tests the dataAccess.loadOn and dataAccess.loader method should 
 A new 'key' should be created, and the data taken from the file to the 'value' and then added to the "stats" dictionary.
 A new weight should be added in mainSpine and configuration.py.
 
+result file: for now, the program will only print the zombies and not write them to a file
