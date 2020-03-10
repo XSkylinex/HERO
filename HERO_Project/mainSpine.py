@@ -1,25 +1,15 @@
-from HERO_Project.dataAccess import *
-from HERO_Project.tests import *
-
-# load stat weights as a dictionary
-# load threshold
-# load result path
-weights = {'cpu': 10, 'nic': 5}
-threshold_on = 60
-threshold_off = 40
-result_path = "/HERO/zombies"
-data_path = "/data/"
-
+import HERO_Project.dataAccess as dataAccess
+import HERO_Project.tests as tests
+import HERO_Project.configuration as config
 
 
 def testVM(stats, state):
-    # run the tests with the weights and sum the results
-    # TODO: actually make the tests sum something
+    # TODO: actually make the tests sum something with the weights
     sum = 0
     if state == "on":
-        cpuTest(stats['cpu'])  # * the weight
-        nicTest(stats['nic'])
-        ramTest(stats['ram'])
+        tests.cpuTest(stats['cpu'])  # * the weight
+        tests.nicTest(stats['nic'])
+        tests.ramTest(stats['ram'])
     elif state == "off":
         pass
     return 50
@@ -27,35 +17,20 @@ def testVM(stats, state):
 
 if __name__ == '__main__':
     zombies = []
-    conn = dataAccess("file", data_path)
-    # TODO: Decide if we want one list and make a dict/tuples of the vm name and state and change the for loops as needed
-    # optional at the end
-    vms_all = dataAccess.getAllVMs()
+    conn = dataAccess("file", config.data_path)
+    vms_on = dataAccess.getOnVMs()
+    vms_off = dataAccess.getOffVMs()
 
-    # TODO: multi processing
-    for vm in vms_all:
-        # get the stats(data) about the current VM into a dictionary
+    for vm in vms_on:
         vm_data = conn.loader(vm, "on")
-        # run all the tests on the VM and save the return values
-        if testVM(vm_data, "on") <= threshold_on:
+        if testVM(vm_data, "on") <= config.threshold_on:
             zombies.append(vm)
 
-    file = open(result_path, 'x')
-    file.writelines(zombies)
-    file.close()
+    for vm in vms_off:
+        vm_data = conn.loader(vm, "off")
+        if testVM(vm_data, "off") <= config.threshold_off:
+            zombies.append(vm)
 
-    # vms_on = dataAccess.getOnVMs()
-    # vms_off = dataAccess.getOffVMs()
-    #
-    # for vm in vms_on:
-    #     # get the stats(data) about the current VM into a dictionary
-    #     vm_data = conn.loader(vm, "on")
-    #     # run all the tests on the VM and save the return values
-    #     if testVM(vm_data, "on") <= threshold_on:
-    #         zombies.append(vm)
-    #
-    # for vm in vms_off:
-    #     # get the stats(data) about the current VM into a dictionary
-    #     vm_data = conn.loader(vm, "off")
-    #     if testVM(vm_data, "off") <= threshold_off:
-    #         zombies.append(vm)
+    with open(config.result_path, 'x') as file:
+        # TODO: see if overwrites the file
+        file.writelines(zombies)

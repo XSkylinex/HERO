@@ -1,3 +1,5 @@
+import HERO_Project.configuration
+
 class dataAccess:
     source = "file"
     path = " "
@@ -8,7 +10,6 @@ class dataAccess:
         # load the data sets from configuration file
 
     def loader(self, name, state):
-        # the vm stats divided to the different categories
         stats = {'vm_name': name, 'state': state}
 
         if state == 'on':
@@ -25,9 +26,8 @@ class dataAccess:
 
         if self.source == "file":
             # if files become too big, can be changed to .readline() with a while and another .readline at the end
-            file = open(self.path, 'r')
-            lines = file.readlines()
-            file.close()
+            with open(self.path, 'r') as file:
+                lines = file.readlines()
 
             for line in lines:
                 if line.startswith("Date: "):
