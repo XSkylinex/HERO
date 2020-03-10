@@ -1,7 +1,6 @@
 import re
 from datetime import datetime
 
-
 class CpuCheck(object):
     def __init__(self, date: datetime, cpu: float):
         self.date = date
