@@ -1,4 +1,5 @@
-import HERO_Project.configuration
+import HERO_Project.configuration as config
+
 
 class dataAccess:
     source = "file"
@@ -23,10 +24,9 @@ class dataAccess:
         nic = []
         ram = []
         mismatch = []
-
         if self.source == "file":
             # if files become too big, can be changed to .readline() with a while and another .readline at the end
-            with open(self.path, 'r') as file:
+            with open(self.path + stats['name'] + config.data_suffix, 'r') as file:
                 lines = file.readlines()
 
             for line in lines:
@@ -47,25 +47,23 @@ class dataAccess:
                     mismatch.append(line)
 
             # TODO: do we want a list or string
-            stats['cpu'] = '\n'.join(cpu)
-            stats['nic'] = '\n'.join(nic)
-            stats['ram'] = '\n'.join(ram)
+            stats['cpu'] = cpu
+            stats['nic'] = nic
+            stats['ram'] = ram
             stats['mismatch'] = '\n'.join(mismatch)
 
     @classmethod
     def getOnVMs(cls):
         # TODO: Figure out how to run virsh commands
-
+        return (["test01", "test06"])
         # returns an array/list of the VM names
-        pass
 
     @classmethod
     def getOffVMs(cls):
         # returns an array/list of the VM names
-        pass
+        return ([])
 
     @classmethod
     def geAllVMs(cls):
         # returns an array/list of the VM names
         pass
-

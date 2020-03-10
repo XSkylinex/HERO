@@ -6,13 +6,18 @@ import HERO_Project.configuration
 # test the given data to check if its a zombie
 
 def cpuTest(data):
-    pass
+    return 10
 
 def ageTest(data):
-    pass
+    return 10
 
 def nicTest(data):
-    pass
+    return 10
 
 def ramTest(data):
-    pass
+    return 10
+
+def nameTest(data:str):
+    if data.startswith("test"):
+        return 20
+    return 10
