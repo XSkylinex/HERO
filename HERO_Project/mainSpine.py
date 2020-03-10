@@ -1,19 +1,20 @@
-import HERO_Project.dataAccess as dataAccess
-import HERO_Project.tests as tests
-import HERO_Project.configuration as config
+import .dataAccess as dataAccess
+import .tests as tests
+import .configuration as config
 
 
 def testVM(stats, state):
     # TODO: actually make the tests sum something with the weights
     sum = 0
     if state == "on":
-        tests.cpuTest(stats['cpu'])  # * the weight
-        tests.nicTest(stats['nic'])
-        tests.ramTest(stats['ram'])
-    elif state == "off":
-        pass
-    return 50
+        sum += tests.cpuTest(stats['cpu'])  * config.weights['cpu']
+        sum += tests.nicTest(stats['nic'])  * config.weights['nic']
+        sum += tests.ramTest(stats['ram'])  * config.weights['ram']
+        sum += tests.nameTest(stats['name']) * config.weights['name']
 
+    elif state == "off":
+        sum += tests.ramTest(stats['name']) * config.weights['name']
+    return sum
 
 if __name__ == '__main__':
     zombies = []
