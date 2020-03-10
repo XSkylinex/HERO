@@ -1,4 +1,4 @@
-import HERO_Project.configuration as config
+import configuration as config
 
 
 class dataAccess:
