@@ -10,12 +10,12 @@ def testVM(stats, state):
     # TODO: actually make the tests sum something with the weights
     sum = 0
     if state == "on":
-        sum = sum + tests.cpuTest(stats['cpu']) * config.weights['cpu']
-        sum = sum + tests.nicTest(stats['nic']) * config.weights['nic']
-        sum = sum + tests.ramTest(stats['ram']) * config.weights['ram']
-        sum = sum + tests.nameTest(stats['vm_name']) * config.weights['name']
+        sum = sum + cpuTest(stats['cpu']) * config.weights['cpu']
+        sum = sum + nicTest(stats['nic']) * config.weights['nic']
+        sum = sum + ramTest(stats['ram']) * config.weights['ram']
+        sum = sum + nameTest(stats['vm_name']) * config.weights['name']
     elif state == "off":
-        sum = sum + tests.nameTest(stats['vm_name']) * config.weights['name']
+        sum = sum + nameTest(stats['vm_name']) * config.weights['name']
     return sum
 
 
