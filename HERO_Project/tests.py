@@ -7,7 +7,6 @@ import configuration as config
 # test the given data to check if its a zombie
 
 def testVM(stats, state):
-    # TODO: actually make the tests sum something with the weights
     sum = 0
     if state == "on":
         sum = sum + cpuTest(stats['cpu']) * config.weights['cpu']
