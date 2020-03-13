@@ -1,4 +1,6 @@
 import configuration as config
+import subprocess
+import testConfiguration as test_config
 
 
 class dataAccess:
@@ -9,19 +11,17 @@ class dataAccess:
         if src == "file":
             self.source = "file"
             self.path = pth
-        # load the data sets from configuration file
 
     def loader(self, name, state):
         stats = {'vm_name': name, 'state': state}
-
         if state == 'on':
-            self.loadOn(stats)
-        if state == 'off':
-            # read the virsh commands from the kvm itself
-            pass
+            self.loadOnFromFile(stats)
+            self.loadOnFromMachine(stats)
+        elif state == 'off':
+            self.loadOff(stats)
         return stats
 
-    def loadOn(self, stats):
+    def loadOnFromFile(self, stats):
         # TODO: finish this - should be many methods? a dictionary?
         cpu = []
         nic = []
@@ -48,12 +48,14 @@ class dataAccess:
                 else:
                     mismatch.append(line)
 
-            # TODO: do we want a list or string
-
             stats['cpu'] = cpu
             stats['nic'] = nic
             stats['ram'] = ram
             stats['mismatch'] = mismatch
+
+    def loadOnFromMachine(self, stats):
+        # TODO: read informtion from the kvm
+        pass
 
     def loadOff(self, stats):
         # TODO: finish this - should be many methods? a dictionary?
@@ -61,25 +63,34 @@ class dataAccess:
         stats['age'] = 100
         stats['inactive'] = 40
 
-    @classmethod
-    def getOnVMs(cls):
-        # TODO: Figure out how to run virsh commands
-        return (['mtest01', 'test06'])
-        # returns an array/list of the VM names
+    def getOnVMs(self):
+        process = subprocess.run(['virsh', 'list --name'],
+                                 check=True, stdout=subprocess.PIPE, universal_newlines=True)
+        vms = process.stdout.strip().split('\n')
+        white = getWhiteList()
+        return filter(lambda v: v not in white, vms)
 
-    @classmethod
-    def getOffVMs(cls):
-        # TODO: Figure out how to run virsh commands
-        # returns an array/list of the VM names
-        return (['test03'])
+    def getOffVMs(self):
+        process = subprocess.run(['virsh', 'list --inactive --name'],
+                                 check=True, stdout=subprocess.PIPE, universal_newlines=True)
+        vms = process.stdout.strip().split('\n')
+        white = getWhiteList()
+        return filter(lambda v: v not in white, vms)
 
-    @classmethod
-    def geAllVMs(cls):
-        # TODO: Figure out how to run virsh commands
-        # returns an array/list of the VM names
-        return (['test03', 'test01', 'test06'])
+    def geAllVMs(self):
+        process = subprocess.run(['virsh', 'list --all --name'],
+                                 check=True, stdout=subprocess.PIPE, universal_newlines=True)
+        vms = process.stdout.strip().split('\n')
+        white = getWhiteList()
+        return filter(lambda v: v not in white, vms)
 
-    @classmethod
+    def getWhiteList(self):
+        if self.source == "file":
+            with open(config.white_path, 'r') as file:
+                first_line_comment = file.readline()
+                lines = file.readlines()
+            return lines.strip().split('\n')
+
     def saveZombies(zombies):
         with open(config.result_path, 'x') as file:
             # TODO: see if overwrites the file
