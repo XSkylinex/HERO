@@ -16,5 +16,3 @@ data_suffix = ".txt"
 project_path = "/home/yael/projects/HERO/HERO_Project"
 white_path = "/home/yael/projects/HERO/HERO_Projects/whitelist.txt"
 
-# checking configuration
-bad_names = ['test', 'temp', 'check']
