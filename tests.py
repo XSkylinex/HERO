@@ -1,6 +1,7 @@
 import re
 from datetime import datetime
-import testConfiguration as test_config
+import HERO_Project.testConfiguration as test_config
+
 
 # TODO: write tests
 
@@ -23,6 +24,8 @@ def testVM(stats, state):
 
 
 def cpuTest(data):
+    # TODO: after a "Date ...." should be a "CPU Average ... ", if not, go to the next "Date ...." until you find
+    # the cpu average.
     return 10
 
 
