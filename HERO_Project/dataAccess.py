@@ -54,7 +54,7 @@ class dataAccess:
             stats['mismatch'] = mismatch
 
     def loadOnFromMachine(self, stats):
-        # TODO: read informtion from the kvm
+        # TODO: read information from the kvm
         pass
 
     def loadOff(self, stats):
