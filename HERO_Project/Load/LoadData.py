@@ -2,7 +2,7 @@ import os
 
 # get all files names in TestFiles directory
 
-from HERO_Project.Hardware.CPU.CpuCheck import CpuCheck
+from HERO_Project.Hardware.CPU import CpuCheck
 
 
 class LoadData:

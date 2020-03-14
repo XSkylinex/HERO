@@ -1,6 +1,6 @@
 import re
 from datetime import datetime
-import testConfiguration as test_config
+import HERO_Project.testConfiguration as test_config
 
 # TODO: write tests
 
@@ -42,7 +42,7 @@ def ageTest(data):
     return 10
 
 
-def nicTest(data):
+def netTest(data):
     return 10
 
 

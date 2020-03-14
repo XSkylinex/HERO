@@ -1,6 +1,6 @@
-import configuration as config
+import HERO_Project.configuration as config
 import subprocess
-import testConfiguration as test_config
+import HERO_Project.testConfiguration as test_config
 
 
 class dataAccess:
@@ -66,21 +66,21 @@ class dataAccess:
         process = subprocess.run(['virsh', 'list --name'],
                                  check=True, stdout=subprocess.PIPE, universal_newlines=True)
         vms = process.stdout.strip().split('\n')
-        white = getWhiteList()
+        white = self.getWhiteList()
         return filter(lambda v: v not in white, vms)
 
     def getOffVMs(self):
         process = subprocess.run(['virsh', 'list --inactive --name'],
                                  check=True, stdout=subprocess.PIPE, universal_newlines=True)
         vms = process.stdout.strip().split('\n')
-        white = getWhiteList()
+        white = self.getWhiteList()
         return filter(lambda v: v not in white, vms)
 
     def geAllVMs(self):
         process = subprocess.run(['virsh', 'list --all --name'],
                                  check=True, stdout=subprocess.PIPE, universal_newlines=True)
         vms = process.stdout.strip().split('\n')
-        white = getWhiteList()
+        white = self.getWhiteList()
         return filter(lambda v: v not in white, vms)
 
     def getWhiteList(self):
