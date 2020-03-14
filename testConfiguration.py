@@ -24,5 +24,4 @@ last_ver = 14.04 # last acceptable version
 
 # boot check
 boot_days = 1 # A boot in X days or less is suspicious
-=======
 test_list = {}

@@ -1,2 +1,0 @@
-# HERO
-Final Project
