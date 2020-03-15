@@ -1,6 +1,6 @@
-import dataAccess as connection
-import tests as tests
-import configuration as config
+import HERO_Project.dataAccess as connection
+import HERO_Project.tests as tests
+import HERO_Project.configuration as config
 
 if __name__ == '__main__':
     zombies = []
