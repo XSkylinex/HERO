@@ -10,11 +10,12 @@ threshold_off = 40
 weights = {'cpu': 13, 'net': 8, 'ram': 8, 'name': 5, 'age':8, 'uptime':8, 'ver':6, 'boot':10}
 
 # general configuration
-result_path = "/home/yael/projects/HERO/HERO_Project/zombies.txt"
+zombie_list = "zombies.txt"
+result_file = 'result.txt'
 data_path = "/home/yael/projects/HERO/HERO_Project/TestFiles/"
 data_suffix = ".txt"
 project_path = "/home/yael/projects/HERO/HERO_Project"
-white_path = "/home/yael/projects/HERO/HERO_Projects/whitelist.txt"
+whitelist_name = "whitelist.txt"
 
 # kvm information
 virtoalizator = 'kvm'

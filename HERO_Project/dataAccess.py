@@ -1,6 +1,7 @@
 import configuration as config
 import subprocess
 import testConfiguration as test_config
+import os
 
 
 class dataAccess:
@@ -18,7 +19,8 @@ class dataAccess:
             self.loadOnFromFile(stats)
             # self.loadOnFromMachine(stats)
         elif state == 'off':
-            self.loadOff(stats)
+            # self.loadOff(stats)
+            pass
         return stats
 
     def loadOnFromFile(self, stats):
@@ -55,19 +57,21 @@ class dataAccess:
 
     def getWhiteList(self):
         if self.source == "file":
-            with open(config.white_path, 'r') as file:
+            with open(config.project_path + '/' + config.whitelist_name, 'r') as file:
                 first_line_comment = file.readline()
                 lines = file.readlines()
-            return lines.strip().split('\n')
+            return lines
 
-    def saveZombies(zombies):
-        with open(config.result_path, 'x') as file:
+    def saveZombies(self, zombies):
+        if os.path.exists(config.project_path + '/' + config.zombie_list):
+            os.remove(config.project_path + '/' + config.zombie_list)
+        with open(config.project_path + '/' + config.zombie_list, 'x') as file:
             # TODO: see if overwrites the file
             file.writelines('\n'.join(zombies))
             file.write('\n')
 
     def getVM(self, vm_name):
-        process = subprocess.run(['virsh', 'dominfo '+vm_name],
+        process = subprocess.run(['virsh', 'dominfo ' + vm_name],
                                  check=True, stdout=subprocess.PIPE, universal_newlines=True)
         info = process.stdout.strip().split('\n')
         state = filter(lambda line: line.startswith('State:'), info)[6:].strip()
@@ -76,9 +80,17 @@ class dataAccess:
         elif state == "shut down":
             self.loader(vm_name, 'off')
 
-    def saveVmResults(self,vm_name, results):
-        with open(config.result_path +'/'+vm_name, 'x') as file:
+    def saveVmResults(self, vm_name, results):
+
+        with open(config.result_path + '/' + vm_name, 'x') as file:
             # TODO: see if overwrites the file
             file.writelines('\n'.join(results))
             file.write('\n')
 
+    def saveReults(self, results):
+        if os.path.exists(config.project_path + '/' + config.result_file):
+            os.remove(config.project_path + '/' + config.result_file)
+        with open(config.project_path + '/' + config.result_file, 'x') as file:
+            for (vm,score) in results:
+                file.writelines('{0} = {1} \n'.format(vm, score))
+            file.write('\n')

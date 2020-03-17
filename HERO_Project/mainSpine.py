@@ -1,21 +1,32 @@
-import HERO_Project.dataAccess as connection
-import HERO_Project.tests as tests
-import HERO_Project.configuration as config
+import dataAccess as dataAccess
+import tests as tests
+import configuration as config
+import remoteAccess as remoteAccess
 
 if __name__ == '__main__':
     zombies = []
-    conn = connection.dataAccess("file", config.data_path)
+    result = []
+    conn = dataAccess.dataAccess("file", config.data_path)
 
-    for vm in conn.getOnVMs():
+    for serv in config.server_ips:
+        srvr = remoteAccess.remoteConn(ip=serv, virt=config.virtoalizator)
+
+
+    for vm in srvr.getOnVMs(conn):
         vm_data = conn.loader(vm, "on")
-        if tests.testVM(vm_data, "on") >= config.threshold_on:
+        score = tests.testVM(vm_data, "on")
+        result.append((vm, score))
+        if score >= config.threshold_on:
             zombies.append(vm)
 
-    for vm in conn.getOffVMs():
+    for vm in srvr.getOffVMs(conn):
         vm_data = conn.loader(vm, "off")
-        if tests.testVM(vm_data, "off") >= config.threshold_off:
+        score = tests.testVM(vm_data, "off")
+        result.append((vm, score))
+        if score >= config.threshold_off:
             zombies.append(vm)
 
-    #TODO: change when done
+    # TODO: change when done
     print(zombies)
-    # conn.saveZombies(zombies)
+    conn.saveZombies(zombies)
+    conn.saveReults(result)

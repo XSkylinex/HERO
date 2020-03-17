@@ -41,6 +41,7 @@ def getVmResults(vm_name, stats, state):
 
 
 def cpuTest(data):
+
     return 10
 
 
