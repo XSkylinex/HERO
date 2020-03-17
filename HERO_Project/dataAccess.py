@@ -1,6 +1,6 @@
-import configuration as config
+import HERO_Project.configuration as config
 import subprocess
-import testConfiguration as test_config
+import HERO_Project.testConfiguration as test_config
 
 
 class dataAccess:
