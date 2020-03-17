@@ -35,9 +35,9 @@ class dataAccess:
             for line in lines:
                 if line.startswith("Date: "):
                     # add to all the strings that care for date
-                    cpu.append(line)
+                    cpu.append(line[6:])
                     nic.append(line)
-                    ram.append(line)
+                    ram.append(line[6:])
 
                 if line.startswith("CPU Average:"):
                     cpu.append(line)
