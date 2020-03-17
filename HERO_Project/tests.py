@@ -1,8 +1,8 @@
 import re
 from datetime import datetime
-import HERO_Project.testConfiguration as test_config
-from HERO_Project.Hardware.CPU.CpuCheck import CpuCheck
-from HERO_Project.Hardware.RAM.RamCheck import RamCheck
+import testConfiguration as test_config
+from Hardware.CPU.CpuCheck import CpuCheck
+from Hardware.RAM.RamCheck import RamCheck
 
 # TODO: write tests
 
@@ -102,7 +102,7 @@ def bootNext(data, up1):
 
     while not line.startswith("Date"): line = data.pop()
     date = line[6:]
-    return uptime1, uptime2, date
+    return up1, up2, date
 
 
 def bootCheck(up1, up2):
