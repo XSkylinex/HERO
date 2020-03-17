@@ -1,6 +1,6 @@
-import HERO_Project.configuration as config
+import configuration as config
 import subprocess
-import HERO_Project.testConfiguration as test_config
+import testConfiguration as test_config
 
 
 class dataAccess:
@@ -16,7 +16,7 @@ class dataAccess:
         stats = {'vm_name': name, 'state': state}
         if state == 'on':
             self.loadOnFromFile(stats)
-            self.loadOnFromMachine(stats)
+            # self.loadOnFromMachine(stats)
         elif state == 'off':
             self.loadOff(stats)
         return stats
@@ -53,36 +53,6 @@ class dataAccess:
             stats['ram'] = ram
             stats['mismatch'] = mismatch
 
-    def loadOnFromMachine(self, stats):
-        pass
-
-    def loadOff(self, stats):
-        # TODO: finish this - should be many methods? a dictionary?
-        # use virsh commands to get age and how long the machine is inactive
-        stats['age'] = 100
-        stats['inactive'] = 40
-
-    def getOnVMs(self):
-        process = subprocess.run(['virsh', 'list --name'],
-                                 check=True, stdout=subprocess.PIPE, universal_newlines=True)
-        vms = process.stdout.strip().split('\n')
-        white = self.getWhiteList()
-        return filter(lambda v: v not in white, vms)
-
-    def getOffVMs(self):
-        process = subprocess.run(['virsh', 'list --inactive --name'],
-                                 check=True, stdout=subprocess.PIPE, universal_newlines=True)
-        vms = process.stdout.strip().split('\n')
-        white = self.getWhiteList()
-        return filter(lambda v: v not in white, vms)
-
-    def geAllVMs(self):
-        process = subprocess.run(['virsh', 'list --all --name'],
-                                 check=True, stdout=subprocess.PIPE, universal_newlines=True)
-        vms = process.stdout.strip().split('\n')
-        white = self.getWhiteList()
-        return filter(lambda v: v not in white, vms)
-
     def getWhiteList(self):
         if self.source == "file":
             with open(config.white_path, 'r') as file:
@@ -95,3 +65,20 @@ class dataAccess:
             # TODO: see if overwrites the file
             file.writelines('\n'.join(zombies))
             file.write('\n')
+
+    def getVM(self, vm_name):
+        process = subprocess.run(['virsh', 'dominfo '+vm_name],
+                                 check=True, stdout=subprocess.PIPE, universal_newlines=True)
+        info = process.stdout.strip().split('\n')
+        state = filter(lambda line: line.startswith('State:'), info)[6:].strip()
+        if state == 'running':
+            self.loader(vm_name, 'on')
+        elif state == "shut down":
+            self.loader(vm_name, 'off')
+
+    def saveVmResults(self,vm_name, results):
+        with open(config.result_path +'/'+vm_name, 'x') as file:
+            # TODO: see if overwrites the file
+            file.writelines('\n'.join(results))
+            file.write('\n')
+
