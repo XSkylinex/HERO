@@ -1,8 +1,8 @@
 import re
 from datetime import datetime
-import testConfiguration as test_config
-from Hardware.CPU.CpuCheck import CpuCheck
-from Hardware.RAM.RamCheck import RamCheck
+import HERO_Project.testConfiguration as test_config
+from HERO_Project.Hardware.CPU.CpuCheck import CpuCheck
+from HERO_Project.Hardware.RAM.RamCheck import RamCheck
 
 
 # TODO: write tests

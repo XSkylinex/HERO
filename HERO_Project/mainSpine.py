@@ -1,7 +1,7 @@
-import dataAccess as dataAccess
-import tests as tests
-import configuration as config
-import remoteAccess as remoteAccess
+import HERO_Project.dataAccess as dataAccess
+import HERO_Project.tests as tests
+import HERO_Project.configuration as config
+import HERO_Project.remoteAccess as remoteAccess
 
 if __name__ == '__main__':
     zombies = []
