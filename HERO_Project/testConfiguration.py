@@ -1,6 +1,6 @@
 ## Test configuration ##
 # Must be edited if new tests are added.
-test_list = {}
+
 
 # the higher the number, the more influence that test will have.
 weights = {'cpu': 13, 'net': 8, 'ram': 8, 'name': 5, 'age':8, 'uptime':8, 'ver':6, 'boot':8}

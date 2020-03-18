@@ -29,4 +29,4 @@ if __name__ == '__main__':
     # TODO: change when done
     print(zombies)
     conn.saveZombies(zombies)
-    conn.saveReults(result)
+    conn.saveResults(result)

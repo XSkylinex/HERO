@@ -4,23 +4,20 @@ import testConfiguration as test_config
 from Hardware.CPU.CpuCheck import CpuCheck
 from Hardware.RAM.RamCheck import RamCheck
 
+
 # TODO: write tests
+
 
 def testVM(stats, state):
     sum = 0
     if state == "on":
-        sum += cpuTest(stats['cpu']) * test_config.weights['cpu']
-        #sum += netTest(stats['net']) * test_config.weights['net']
-        sum += ramTest(stats['ram']) * test_config.weights['ram']
-        # sum += nameTest(stats['vm_name']) * test_config.weights['name']
-        # sum += uptimeTest(stats['uptime']) * test_config.weights['uptime']
-        # sum += verTest(stats['ver']) * test_config.weights['ver']
-        # sum += bootTest(stats['boot']) * test_config.weights['boot']
-        # sum += ageTest(stats['age']) * test_config.weights['age']
+        for par in test_list.values():
+            sum += par['func'](stats[par['name']]) * test_config.weights[par['name']]
+        sum += nameTest(stats['vm_name']) * test_config.weights['name']
     elif state == "off":
         sum += nameTest(stats['vm_name']) * test_config.weights['name']
         # sum += ageTest(stats['age']) * test_config.weights['age']
-        # sum += verTest(stats['ver']) * test_config.weights['ver']
+        # sum += verTest(stats['ver']) * test_config.weights['ver'] #????
     return sum
 
 
@@ -41,8 +38,19 @@ def getVmResults(vm_name, stats, state):
         # results['ver'] = verTest(stats['ver'])
 
 
+def check():
+    return 3
+
+
 def cpuTest(data):
-    data = CpuCheck.getAllDataFromFile(data)
+    newData = []
+    for line in data:
+        if line.startswith("Date:"):
+            newData.append(line[6:])
+        else:
+            newData.append(line)
+
+    data = CpuCheck.getAllDataFromFile(newData)
     print(CpuCheck.isIdle(data))
     return 10
 
@@ -108,3 +116,11 @@ def bootNext(data, up1):
 def bootCheck(up1, up2):
     # up1 needs to be bigger than up2
     pass
+
+
+test_list = {'cpu': {'name': 'cpu', 'prefix': 'CPU Average:', 'func': cpuTest},
+             'nic': {'name': 'nic', 'prefix': 'Network ', 'func': netTest},
+             'ram': {'name': 'ram', 'prefix': 'Used RAM:', 'func': ramTest},
+             'uptime': {'name': 'uptime', 'prefix': 'Uptime:', 'func': uptimeTest},
+             'kernel': {'name': 'kernel', 'prefix': 'Kernel version:', 'func': verTest},
+             'boot': {'name': 'boot', 'prefix': 'Uptime:', 'func': bootTest}}

@@ -2,6 +2,8 @@ import configuration as config
 import subprocess
 import testConfiguration as test_config
 import os
+import datetime
+import tests
 
 
 class dataAccess:
@@ -25,35 +27,17 @@ class dataAccess:
 
     def loadOnFromFile(self, stats):
         # TODO: finish this - should be many methods? a dictionary?
-        cpu = []
-        nic = []
-        ram = []
-        mismatch = []
         if self.source == "file":
             # if files become too big, can be changed to .readline() with a while and another .readline at the end
             with open(self.path + stats['vm_name'] + config.data_suffix, 'r') as file:
                 lines = file.readlines()
 
-            for line in lines:
-                if line.startswith("Date: "):
-                    # add to all the strings that care for date
-                    cpu.append(line[6:])
-                    nic.append(line)
-                    ram.append(line[6:])
-
-                if line.startswith("CPU Average:"):
-                    cpu.append(line)
-                elif line.startswith("Network "):
-                    nic.append(line)
-                elif line.startswith("Used RAM:"):
-                    ram.append(line)
-                else:
-                    mismatch.append(line)
-
-            stats['cpu'] = cpu
-            stats['nic'] = nic
-            stats['ram'] = ram
-            stats['mismatch'] = mismatch
+            for par in tests.test_list.values():
+                parList = []
+                for line in lines:
+                    if line.startswith("Date: ") or line.startswith(par['prefix']):
+                        parList.append(line)
+                stats[par['name']] = parList
 
     def getWhiteList(self):
         if self.source == "file":
@@ -71,6 +55,7 @@ class dataAccess:
             file.write('\n')
 
     def getVM(self, vm_name):
+        # todo: fix!!!!
         process = subprocess.run(['virsh', 'dominfo ' + vm_name],
                                  check=True, stdout=subprocess.PIPE, universal_newlines=True)
         info = process.stdout.strip().split('\n')
@@ -87,10 +72,10 @@ class dataAccess:
             file.writelines('\n'.join(results))
             file.write('\n')
 
-    def saveReults(self, results):
+    def saveResults(self, results):
         if os.path.exists(config.project_path + '/' + config.result_file):
             os.remove(config.project_path + '/' + config.result_file)
         with open(config.project_path + '/' + config.result_file, 'x') as file:
-            for (vm,score) in results:
+            for (vm, score) in results:
                 file.writelines('{0} = {1} \n'.format(vm, score))
             file.write('\n')
