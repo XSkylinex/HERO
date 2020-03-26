@@ -3,7 +3,7 @@
 
 
 # the higher the number, the more influence that test will have.
-weights = {'cpu': 13, 'net': 8, 'ram': 8, 'name': 5, 'age':8, 'uptime':8, 'ver':6, 'boot':8}
+weights = {'cpu': 7, 'nic': 3, 'ram': 3, 'name': 2, 'age':2, 'uptime':1, 'ver':2, 'boot':1}
 
 # tests:
 # cpu check

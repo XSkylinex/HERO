@@ -1,9 +1,9 @@
-import HERO_Project.configuration as config
+import configuration as config
 import subprocess
-import HERO_Project.testConfiguration as test_config
+import testConfiguration as test_config
 import os
 import datetime
-import HERO_Project.tests
+import tests
 
 
 class dataAccess:
@@ -50,7 +50,6 @@ class dataAccess:
         if os.path.exists(config.project_path + '/' + config.zombie_list):
             os.remove(config.project_path + '/' + config.zombie_list)
         with open(config.project_path + '/' + config.zombie_list, 'x') as file:
-            # TODO: see if overwrites the file
             file.writelines('\n'.join(zombies))
             file.write('\n')
 

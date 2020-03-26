@@ -1,8 +1,8 @@
-import HERO_Project.remoteAccess as reAc
-import HERO_Project.configuration as config
+import remoteAccess as reAc
+import configuration as config
 import subprocess
 import time
-import HERO_Project.dataAccess as connection
+import dataAccess as connection
 from paramiko import SSHClient, AutoAddPolicy, RSAKey
 from paramiko.auth_handler import AuthenticationException, SSHException
 

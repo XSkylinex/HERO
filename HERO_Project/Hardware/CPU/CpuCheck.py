@@ -22,7 +22,7 @@ class CpuCheck(object):
         minCPU = 0.05  # should be imported from the test configuration file
         count = 0
         # only brings back the cpu average lines, and from them only the number part
-        cpuList = map(lambda l: l[12:], filter(lambda line: line.startswith('CPU Average:'), cpuData))
+        cpuList = map(lambda l: (l[12:].split('#'))[0], filter(lambda line: line.startswith('CPU Average:'), cpuData))
         for cpu in cpuList:
             # if this is a cpu data line
             if float(cpu) < minCPU: count += 1
