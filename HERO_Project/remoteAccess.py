@@ -1,8 +1,8 @@
 import time
 import paramiko
 import subprocess
-import HERO_Project.testConfiguration as test_config
-import HERO_Project.configuration as config
+import testConfiguration as test_config
+import configuration as config
 from paramiko import SSHClient, AutoAddPolicy, RSAKey
 from paramiko.auth_handler import AuthenticationException, SSHException
 
