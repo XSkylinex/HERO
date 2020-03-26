@@ -1,8 +1,8 @@
 import re
 from datetime import datetime
-import testConfiguration as test_config
-from Hardware.CPU.CpuCheck import CpuCheck
-from Hardware.RAM.RamCheck import RamCheck
+import HERO_Project.testConfiguration as test_config
+from HERO_Project.Hardware.CPU.CpuCheck import CpuCheck
+from HERO_Project.Hardware.RAM.RamCheck import RamCheck
 
 
 # TODO: write tests
@@ -44,7 +44,7 @@ def check():
 
 def cpuTest(data):
     # % that the vm is a zombie
-    result = CpuCheck.getCPUDataYAEL(data)
+    result = CpuCheck.getCPUData(data)
 
     # newData = []
     # for line in data:
@@ -88,9 +88,7 @@ def netTest(data):
 
 
 def ramTest(data):
-    # data = RamCheck.getAllDataFromFile(data)
-    # result = RamCheck.isIdle(data)
-    return 10
+    return RamCheck.getRamData(ramData=data)
 
 
 def nameTest(data: str):
