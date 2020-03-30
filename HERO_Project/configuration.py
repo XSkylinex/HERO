@@ -4,7 +4,7 @@ data_polling = 15  # minutes
 zombie_searching = 40  # minutes
 
 # sensitivity configuration
-threshold_on = 121
+threshold_on = 91
 threshold_off = 40
 # the higher the number, the more influence that test will have.
 weights = {'cpu': 13, 'net': 8, 'ram': 8, 'name': 5, 'age': 8, 'uptime': 8, 'ver': 6, 'boot': 10}
@@ -12,12 +12,14 @@ weights = {'cpu': 13, 'net': 8, 'ram': 8, 'name': 5, 'age': 8, 'uptime': 8, 'ver
 # general configuration
 zombie_list = "zombies.txt"
 result_file = 'result.txt'
-data_path = "/Users/alexandrmoshisnky/Desktop/HERO/HERO_Project/TestFiles/"
+data_path = "/home/yael/projects/HERO/HERO_Project/TestFiles/"
 data_suffix = ".txt"
-project_path = "/Users/alexandrmoshisnky/Desktop/HERO/HERO_Project"
-whitelist_name = "/HERO_Project/whitelist.txt"
+project_path = "/home/yael/projects/HERO/HERO_Project"
+whitelist_name = "whitelist.txt"
 
 # kvm information
 virtoalizator = 'kvm'
 server_ips = ['193.106.55.43']
-private_key_path = '/Users/alexandrmoshisnky/Documents/RSA/id_rsa.pub'
+private_key_path = '/home/yael/.ssh/id_rsa'
+
+

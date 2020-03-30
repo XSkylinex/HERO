@@ -3,22 +3,20 @@ import HERO_Project.configuration as config
 import subprocess
 import time
 import HERO_Project.dataAccess as connection
+import HERO_Project.tests as tests
 from paramiko import SSHClient, AutoAddPolicy, RSAKey
 from paramiko.auth_handler import AuthenticationException, SSHException
 
 if __name__ == '__main__':
+    zombies = []
     conn = connection.dataAccess("file", config.data_path)
-    conn.clearFiles(1)
 
+    vms = ['test01','test02', 'test03', 'test04', 'test05', 'test06', 'test07', 'test08', 'test09', 'test10']
 
-
-    # kvm = reAc.remoteConn(ip='193.106.55.43', virt='kvm')
-    # conn = connection.dataAccess("file", config.data_path)
-    # print("All of the vms: ")
-    # print(kvm.getAllVMs())
-    # print("All vms w/o whitelist: ")
-    # print(kvm.getAllVMsW(conn))
-    # print("On vms w/o whitelist: ")
-    # print(kvm.getOnVMs(conn))
-    # print("Off vms w/o whitelist: ")
-    # print(kvm.getOffVMs(conn))
+    for vm in vms:
+        vm_data = conn.loader(vm, "on")
+        score = tests.testVM(vm_data, "on")
+        print('VM {0} scored:{1}'.format(vm, score))
+        results = tests.getVmResults(vm, vm_data, 'on')
+        print(results)
+    print('Done')
