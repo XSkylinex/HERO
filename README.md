@@ -1,4 +1,4 @@
-##Name convention:
+## Name convention:
 Methods start with lower case and then upper case for each word: `useThis()`
 Variables are all lower case and use '_' : this_var
 
