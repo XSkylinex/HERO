@@ -6,8 +6,7 @@ from HERO_Project.Hardware.RAM.RamCheck import RamCheck
 from HERO_Project.Hardware.Boot.bootCheck import bootCheck
 
 
-# TODO: write tests
-# todo: all tests bring back bad results
+# TODO: write more tests
 
 
 def testVM(stats, state):
