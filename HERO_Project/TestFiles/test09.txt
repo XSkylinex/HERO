@@ -36487,21 +36487,21 @@ CPU Average: 0.05 #node cpu load 15 minutes average
 Network transmit: 2.414402e+06 #node_network_transmit_packets_total
 Network receive: 3.534426e+06 #node_network_receive_packets_total
 Used RAM: 8.5596 #Used RAM
-Uptime: 18.9 #In days
+Uptime: 0 #In days
 Kernel version: 3.10.0-1062.12.1.el7.x86_64
 Date: Thu Mar 12 20:46:02 IST 2020
 CPU Average: 0.05 #node cpu load 15 minutes average
 Network transmit: 2.414546e+06 #node_network_transmit_packets_total
 Network receive: 3.534617e+06 #node_network_receive_packets_total
 Used RAM: 8.5596 #Used RAM
-Uptime: 18.9 #In days
+Uptime: 0 #In days
 Kernel version: 3.10.0-1062.12.1.el7.x86_64
 Date: Thu Mar 12 20:47:03 IST 2020
 CPU Average: 0.05 #node cpu load 15 minutes average
 Network transmit: 2.414689e+06 #node_network_transmit_packets_total
 Network receive: 3.534808e+06 #node_network_receive_packets_total
 Used RAM: 8.5596 #Used RAM
-Uptime: 18.9 #In days
+Uptime: 0 #In days
 Kernel version: 3.10.0-1062.12.1.el7.x86_64
 Date: Thu Mar 12 20:48:03 IST 2020
 CPU Average: 0.05 #node cpu load 15 minutes average

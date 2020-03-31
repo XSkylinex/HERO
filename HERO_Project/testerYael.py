@@ -12,11 +12,12 @@ if __name__ == '__main__':
     conn = connection.dataAccess("file", config.data_path)
 
     vms = ['test01','test02', 'test03', 'test04', 'test05', 'test06', 'test07', 'test08', 'test09', 'test10']
-
+    # vms = ['test01', 'test09']
     for vm in vms:
         vm_data = conn.loader(vm, "on")
         score = tests.testVM(vm_data, "on")
         print('VM {0} scored:{1}'.format(vm, score))
         results = tests.getVmResults(vm, vm_data, 'on')
         print(results)
+        print('\n')
     print('Done')

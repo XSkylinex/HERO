@@ -7,6 +7,7 @@ from HERO_Project.Hardware.Boot.bootCheck import bootCheck
 
 
 # TODO: write tests
+# todo: all tests bring back bad results
 
 
 def testVM(stats, state):
@@ -28,7 +29,7 @@ def getVmResults(vm_name, stats, state):
         results['cpu'] = cpuTest(stats['cpu'])
         results['nic'] = netTest(stats['nic'])
         results['ram'] = ramTest(stats['ram'])
-        # results['vm_name'] = nameTest(stats['vm_name'])
+        results['vm_name'] = nameTest(stats['vm_name'])
         # results['uptime'] = uptimeTest(stats['uptime'])
         # results['ver'] = verTest(stats['ver'])
         results['boot'] = bootTest(stats['boot'])

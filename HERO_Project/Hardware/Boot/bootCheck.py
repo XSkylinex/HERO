@@ -19,7 +19,7 @@ def uptimecheck(data, date, count):
         if cur.startswith('Date:') and cur != date:
             return (cur, count + add)
         if cur.startswith('Uptime'):
-            if cur.split(':')[1] == 0:
+            if cur.split(':')[1].strip() == '0':
                 add = 1
     return ('none', count + add)
 
