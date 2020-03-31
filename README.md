@@ -1,3 +1,6 @@
+## Architecture 
+ ![Diagram](HERO.jpg)
+
 ## Name convention
 - Methods start with lower case and then upper case for each word: `useThis()`
 - Write variables in lower case and use '_' : `*this_var*`
@@ -14,6 +17,4 @@
 ## Results
 - Result file: for now, the program will only print the zombies and not write them to a file
 
-## Architecture 
- ![Diagram](HERO.jpg)
 
