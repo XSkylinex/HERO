@@ -15,5 +15,5 @@
 - Result file: for now, the program will only print the zombies and not write them to a file
 
 ## Architecture 
-- ![Diagram](HERO.jpg)
+ ![Diagram](HERO.jpg)
 
