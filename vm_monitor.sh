@@ -22,5 +22,5 @@ do
 	curl -s http://$i:9100/metrics | grep 'node_network_receive_packets_total{device="eth0"}' | awk '{print "Network receive: "$2 " #node_network_receive_packets_total"}' >> /opt/data/$i.data
 	echo Used RAM: $(calculate_RAM "$i") \#Used RAM>> /opt/data/$i.data
 	echo Uptime: $(calculate_uptime "$i") \#In days >> /opt/data/$i.data
-	echo Kernel version: $(curl -s http://192.168.122.65:9100/metrics | grep -i node_uname_info | grep release | cut -d , -f 4| cut -d = -f 2 | sed 's/"//g') >> /opt/data/$i.data
+	echo Kernel version: $(curl -s http://$i:9100/metrics | grep -i node_uname_info | grep release | cut -d , -f 4| cut -d = -f 2 | sed 's/"//g') >> /opt/data/$i.data
 done
