@@ -3,7 +3,7 @@
 
 ## Name convention
 - Methods start with lower case and then upper case for each word: `useThis()`
-- Write variables in lower case and use '_' : `*this_var*`
+- Write variables in lower case and use '_' : *`this_var`*
 
 ## Work convention
 - The general configuration data is saved in a local file and imported (or read) when HERO starts running.
