@@ -1,0 +1,10 @@
+test01 : result is 80.0
+test02 : result is 80.0
+test03 : result is 80.0
+test04 : result is 80.0
+test05 : result is 80.0
+test06 : result is 80.0
+test07 : result is 91.22095901329865
+test08 : result is 82.85161723371229
+test09 : result is 84.20555415722795
+test10 : result is 92.89755852001007
