@@ -12,9 +12,9 @@ weights = {'cpu': 13, 'net': 8, 'ram': 8, 'name': 5, 'age': 8, 'uptime': 8, 'ver
 # general configuration
 zombie_list = "zombies.txt"
 result_file = 'result.txt'
-data_path = "/home/yael/projects/HERO/HERO_Project/TestFiles/"
+data_path = "./TestFiles/"
 data_suffix = ".txt"
-project_path = "/home/yael/projects/HERO/HERO_Project"
+project_path = "./"
 whitelist_name = "whitelist.txt"
 
 # kvm information
