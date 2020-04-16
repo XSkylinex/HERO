@@ -46,6 +46,17 @@ class dataAccess:
                 lines = file.readlines()
             return lines
 
+    def clearVms(self, vms):
+        lines = []
+        if self.source == "file":
+            with open(config.project_path + '/' + config.whitelist_name, 'r') as file:
+                first_line_comment = file.readline()
+                lines = file.readlines()
+        for vm in vms:
+            if vm in lines:
+                vms.remove(vm)
+        return vms
+
     def saveZombies(self, zombies):
         if os.path.exists(config.project_path + '/' + config.zombie_list):
             os.remove(config.project_path + '/' + config.zombie_list)
