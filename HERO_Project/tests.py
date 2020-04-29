@@ -4,6 +4,7 @@ import HERO_Project.testConfiguration as test_config
 from HERO_Project.Hardware.CPU.CpuCheck import CpuCheck
 from HERO_Project.Hardware.RAM.RamCheck import RamCheck
 from HERO_Project.Hardware.Boot.bootCheck import bootCheck
+from HERO_Project.Versions.VersionsCheck import VersionsCheck
 
 
 # TODO: write more tests
@@ -18,7 +19,7 @@ def testVM(stats, state):
     elif state == "off":
         sum += nameTest(stats['vm_name']) * test_config.weights['name']
         # sum += ageTest(stats['age']) * test_config.weights['age']
-        # sum += verTest(stats['ver']) * test_config.weights['ver'] #????
+        sum += verTest(stats['ver']) * test_config.weights['ver']
     return sum
 
 
@@ -30,14 +31,15 @@ def getVmResults(vm_name, stats, state):
         results['ram'] = ramTest(stats['ram'])
         results['vm_name'] = nameTest(stats['vm_name'])
         # results['uptime'] = uptimeTest(stats['uptime'])
-        # results['ver'] = verTest(stats['ver'])
+        results['ver'] = verTest(stats['ver'])
         results['boot'] = bootTest(stats['boot'])
         # results['age'] = ageTest(stats['age'])
     elif state == "off":
         results['vm_name'] = nameTest(stats['vm_name'])
         # results['age'] = ageTest(stats['age'])
-        # results['ver'] = verTest(stats['ver'])
+        results['ver'] = verTest(stats['ver'])
     return results
+
 
 def check():
     return 3
@@ -54,6 +56,7 @@ def bootTest(data):
 
 
 def verTest(data):
+    VersionsCheck.getVersion(data, "3.10.0-1062")
     return 10
 
 
