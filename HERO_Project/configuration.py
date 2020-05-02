@@ -21,5 +21,3 @@ whitelist_name = "whitelist.txt"
 virtoalizator = 'kvm'
 server_ips = ['193.106.55.43']
 private_key_path = '/home/yael/.ssh/id_rsa'
-
-

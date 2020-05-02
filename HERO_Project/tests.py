@@ -57,7 +57,6 @@ def bootTest(data):
 
 def verTest(data):
     VersionsCheck.getVersion(data, "3.10.0-1062")
-    return 10
 
 
 def uptimeTest(data):
