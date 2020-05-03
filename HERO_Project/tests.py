@@ -56,7 +56,7 @@ def bootTest(data):
 
 
 def verTest(data):
-    VersionsCheck.getVersion(data, "3.10.0-1062")
+    return VersionsCheck.getVersion(data, test_config.kernel_ver)
 
 
 def uptimeTest(data):

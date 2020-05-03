@@ -13,11 +13,11 @@ weights = {'cpu': 13, 'net': 8, 'ram': 8, 'name': 5, 'age': 8, 'uptime': 8, 'ver
 zombie_list = "zombies.txt"
 result_file = 'result.txt'
 data_path = "./TestFiles/"
-data_suffix = ".txt"
+data_suffix = ".data"
 project_path = "./"
 whitelist_name = "whitelist.txt"
 
 # kvm information
-virtoalizator = 'kvm'
+virtTech = 'kvm'
 server_ips = ['193.106.55.43']
 private_key_path = '/home/yael/.ssh/id_rsa'

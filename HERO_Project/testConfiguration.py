@@ -22,6 +22,7 @@ up_days = 350
 
 # version check
 last_ver = 14.04 # last acceptable version
+kernel_ver = "3.10.0-1062"
 
 # boot check
 past_days = 10

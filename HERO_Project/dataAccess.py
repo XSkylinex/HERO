@@ -15,21 +15,22 @@ class dataAccess:
             self.source = "file"
             self.path = pth
 
-    def loader(self, name, state):
-        stats = {'vm_name': name, 'state': state}
+    def loader(self, vm, fileName, state):
+        stats = {'vm_name': vm}
         if state == 'on':
-            self.loadOnFromFile(stats)
+            self.loadOnFromFile(fileName, stats)
             # self.loadOnFromMachine(stats)
         elif state == 'off':
             # self.loadOff(stats)
             pass
         return stats
 
-    def loadOnFromFile(self, stats):
+    def loadOnFromFile(self, fileName, stats):
         # TODO: finish this - should be many methods? a dictionary?
+        stats['state'] = 'on'
         if self.source == "file":
             # if files become too big, can be changed to .readline() with a while and another .readline at the end
-            with open(self.path + stats['vm_name'] + config.data_suffix, 'r') as file:
+            with open(self.path + fileName + config.data_suffix, 'r') as file:
                 lines = file.readlines()
 
             for par in tests.test_list.values():

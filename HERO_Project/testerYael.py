@@ -9,21 +9,20 @@ from paramiko import SSHClient, AutoAddPolicy, RSAKey
 from paramiko.auth_handler import AuthenticationException, SSHException
 
 if __name__ == '__main__':
-    conn = remoteAcc.remoteConn('193.106.55.43', 'kvm')
-    vms = ['test01', 'test02', 'test03', 'test04', 'test05', 'test06', 'test07', 'test08', 'test09', 'test10']
-    print(conn.associateIps(vms))
+    remConn = remoteAcc.remoteConn('193.106.55.43', 'kvm')
+    dataConn = connection.dataAccess("file", config.data_path)
+    zombies = []
+    result = []
+    # vms = dataConn.clearVms(remConn.getVMs('active'))
+    vms = ['test01', 'test02', 'test03']
+    vmsDict = remConn.associateIps(vms)
 
-    # zombies = []
-    # conn = connection.dataAccess("file", config.data_path)
-    #
-    # vms = ['test01','test02', 'test03', 'test04', 'test05', 'test06', 'test07', 'test08', 'test09', 'test10']
-    # # vms = ['test01', 'test09']
-    # for vm in vms:
-    #     vm_data = conn.loader(vm, "on")
-    #     score = tests.testVM(vm_data, "on")
-    #     print('VM {0} scored:{1}'.format(vm, score))
-    #     results = tests.getVmResults(vm, vm_data, 'on')
-    #     print(results)
-    #     print('\n')
-    print('Done')
+    for (vm, ip) in vmsDict.items():
+        vm_data = dataConn.loader(vm=vm, fileName=ip, state='on')
+        score = tests.testVM(vm_data, "on")
+        print('VM {0} ip {1}   ---   scored:{2}'.format(vm,ip, score))
+        results = tests.getVmResults(vm, vm_data, 'on')
+        print(results)
+        print('\n')
+        print('Done')
 
