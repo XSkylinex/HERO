@@ -5,7 +5,7 @@ import HERO_Project.remoteAccess as remoteAccess
 import sys
 
 
-def CheckEveryVM(zombies, result, vmDict, dataConn):
+def CheckEveryVM(zombies, result, vmsDict, dataConn):
     for (vm, ip) in vmsDict.items():
         vm_data = dataConn.loader(vm=vm, fileName=ip, state='on')
         score = tests.testVM(vm_data, "on")
@@ -29,16 +29,19 @@ def CheckEveryServer(zombies, result, dataConn):
 
 
 def CheckPastResults(dataConn):
-    sus_zombies = dataConn.getSusZombies()
-    real_zombies = dataConn.getRealZombies()
-    for vm in real_zombies:
-        if vm not in sus_zombies:
-            # get vm data. Add 1 to the two parameters with the highest score.
-            pass
-    for vm in sus_zombies:
-        if vm not in real_zombies:
-            # get vm data. Subtrack 1 to from the two parameters with the highest score.
-            pass
+    print("Training!")
+    # sus_zombies = dataConn.getSusZombies()
+    # real_zombies = dataConn.getRealZombies()
+    # #todo: finish
+    #
+    # for vm in real_zombies:
+    #     if vm not in sus_zombies:
+    #         # get vm data. Add 1 to the two parameters with the highest score.
+    #         pass
+    # for vm in sus_zombies:
+    #     if vm not in real_zombies:
+    #         # get vm data. Subtrack 1 to from the two parameters with the highest score.
+    #         pass
 
 
 if __name__ == '__main__':
@@ -47,6 +50,9 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         if sys.argv[1] == '-train':
             CheckPastResults(dataConn)
+        if sys.argv[1] == '-help':
+            #todo: add nice help
+            print("helping!")
     else:
         zombies = []
         result = []
