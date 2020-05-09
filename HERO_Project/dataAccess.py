@@ -65,6 +65,19 @@ class dataAccess:
             file.writelines('\n'.join(zombies))
             file.write('\n')
 
+    def getSusZombies(self):
+        if self.source == "file":
+            with open(config.project_path + '/' + zombie_list, 'r') as file:
+                lines = file.readlines()
+            return lines
+
+    def getRealZombies(self):
+        if self.source == "file":
+            with open(config.project_path + '/' + config.real_zombie_list, 'r') as file:
+                first_line_comment = file.readline()
+                lines = file.readlines()
+            return lines
+
     def getVM(self, vm_name):
         # todo: fix!!!!
         process = subprocess.run(['virsh', 'dominfo ' + vm_name],

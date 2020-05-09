@@ -11,6 +11,7 @@ weights = {'cpu': 13, 'net': 8, 'ram': 8, 'name': 5, 'age': 8, 'uptime': 8, 'ver
 
 # general configuration
 zombie_list = "zombies.txt"
+real_zombie_list = "real_zombies.txt"
 result_file = 'result.txt'
 data_path = "./TestFiles/"
 data_suffix = ".data"

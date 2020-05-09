@@ -40,7 +40,6 @@ def getVmResults(vm_name, stats, state):
         results['ver'] = verTest(stats['ver'])
     return results
 
-
 def check():
     return 3
 
