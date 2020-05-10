@@ -6,14 +6,15 @@ def bootCheck(data):
         if newDate == 'none':
             cur = data.pop()
             if cur.startswith('Date:'):
-                newDate, count = uptimecheck(data, cur, count)
+                newDate, count = bootuptimecheck(data, cur, count)
         else:
-            newDate, count = uptimecheck(data, newDate, count)
+            newDate, count = bootuptimecheck(data, newDate, count)
     return count
 
 
-def uptimecheck(data, date, count):
+def bootuptimecheck(data, date, count):
     add = 0
+    print("data: ")
     while data:
         cur = data.pop()
         if cur.startswith('Date:') and cur != date:

@@ -4,6 +4,7 @@ import HERO_Project.testConfiguration as test_config
 from HERO_Project.Hardware.CPU.CpuCheck import CpuCheck
 from HERO_Project.Hardware.RAM.RamCheck import RamCheck
 from HERO_Project.Hardware.Boot.bootCheck import bootCheck
+from HERO_Project.Hardware.Boot.upTimeCheck import uptimeCheck
 from HERO_Project.Versions.VersionsCheck import VersionsCheck
 
 
@@ -59,7 +60,7 @@ def verTest(data):
 
 
 def uptimeTest(data):
-    return 10
+    return uptimeCheck(data)
 
 
 def ageTest(data):
