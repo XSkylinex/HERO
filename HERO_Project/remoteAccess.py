@@ -89,4 +89,3 @@ class remoteConn:
                 if vm in vms:
                     vmsDict[vm] = ip.split('/')[0]
             return vmsDict
-

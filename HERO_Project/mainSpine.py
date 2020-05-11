@@ -28,6 +28,23 @@ def CheckEveryServer(zombies, result, dataConn):
         CheckEveryVM(zombies, result, vmsDict, dataConn, 'on')
 
 
+def VmResults(vm, dataConn):
+    # todo: make it work for not-active servers too
+    for serv in config.server_ips:
+        RemConn = remoteAccess.remoteConn(ip=serv, virt=config.virtTech)
+        vmsDict = RemConn.associateIps(RemConn.getVMs('active'))
+        if vm in vmsDict:
+            vm_data = dataConn.loader(vm=vm, fileName=vmsDict[vm], state='on')
+            score = tests.testVM(vm_data, "on")
+            print(score)
+            print("\n")
+            results = tests.getVmResults(vm, vm_data, 'on')
+            print(results)
+            dataConn.saveVmResults(vm_name=vm, score=score, results=results)
+            return True
+    return False
+
+
 def CheckPastResults(dataConn):
     print("Training!")
     # sus_zombies = dataConn.getSusZombies()
@@ -40,7 +57,7 @@ def CheckPastResults(dataConn):
     #         pass
     # for vm in sus_zombies:
     #     if vm not in real_zombies:
-    #         # get vm data. Subtrack 1 to from the two parameters with the highest score.
+    #         # get vm data. Subtract 1 to from the two parameters with the highest score.
     #         pass
 
 
@@ -48,11 +65,23 @@ if __name__ == '__main__':
     dataConn = dataAccess.dataAccess("file", config.data_path)
 
     if len(sys.argv) == 2:
-        if sys.argv[1] == '-train':
+        if sys.argv[1] == '-train' or sys.argv[1] == '-t':
             CheckPastResults(dataConn)
-        if sys.argv[1] == '-help':
-            #todo: add nice help
-            print("helping!")
+        if sys.argv[1] == '-help' or sys.argv[1] == '-h':
+            print("HERO is a program designated to find zombie VMs - VMs that are no"
+                  "longer needed and can be shutdown to free up resources."
+                  "-train or -t is used to train HERO to be better at finding zombies. "
+                  "     after running HERO, add the names of actual zombies found in the"
+                  "     environment to the 'real_zombies' file. when running HERO it will "
+                  "     to adjust the tests to the environments needs."
+                  "'vm_name' is used to get the results of a specific VM. The different "
+                  "     scores on the tests for the VM will be saved to a file with the "
+                  "     VM name.")
+        if not sys.argv[1].startswith('-'):
+            if VmResults(sys.argv[1], dataConn):
+                print("Success!")
+            else:
+                print("VM not found")
     else:
         zombies = []
         result = []

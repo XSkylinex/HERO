@@ -20,26 +20,20 @@ def testVM(stats, state):
     elif state == "off":
         sum += nameTest(stats['vm_name']) * test_config.weights['name']
         # sum += ageTest(stats['age']) * test_config.weights['age']
-        sum += verTest(stats['ver']) * test_config.weights['ver']
+        # sum += verTest(stats['ver']) * test_config.weights['ver']
     return sum
 
 
 def getVmResults(vm_name, stats, state):
-    results = {}
+    result = {}
     if state == "on":
-        results['cpu'] = cpuTest(stats['cpu'])
-        results['nic'] = netTest(stats['nic'])
-        results['ram'] = ramTest(stats['ram'])
-        results['vm_name'] = nameTest(stats['vm_name'])
-        # results['uptime'] = uptimeTest(stats['uptime'])
-        results['ver'] = verTest(stats['ver'])
-        results['boot'] = bootTest(stats['boot'])
-        # results['age'] = ageTest(stats['age'])
+        for par in test_list.values():
+            result[par['name']] = par['func'](stats[par['name']])
     elif state == "off":
-        results['vm_name'] = nameTest(stats['vm_name'])
-        # results['age'] = ageTest(stats['age'])
-        results['ver'] = verTest(stats['ver'])
-    return results
+        result['vm_name'] = nameTest(stats['vm_name'])
+        # result['age'] = ageTest(stats['age'])
+        # result['ver'] = verTest(stats['ver'])
+    return result
 
 def check():
     return 3

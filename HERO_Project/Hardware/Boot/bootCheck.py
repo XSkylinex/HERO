@@ -14,7 +14,6 @@ def bootCheck(data):
 
 def bootuptimecheck(data, date, count):
     add = 0
-    print("data: ")
     while data:
         cur = data.pop()
         if cur.startswith('Date:') and cur != date:
