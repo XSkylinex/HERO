@@ -1,0 +1,6 @@
+Final score (with weights)is: 57.0cpu
+nic
+ram
+uptime
+ver
+boot
