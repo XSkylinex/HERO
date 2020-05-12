@@ -25,15 +25,16 @@ def testVM(stats, state):
 
 
 def getVmResults(vm_name, stats, state):
-    result = {}
+    result = []
     if state == "on":
         for par in test_list.values():
-            result[par['name']] = par['func'](stats[par['name']])
+            result.append((par['name'], par['func'](stats[par['name']])))
     elif state == "off":
-        result['vm_name'] = nameTest(stats['vm_name'])
+        result.append(('vm_name', nameTest(stats['vm_name'])))
         # result['age'] = ageTest(stats['age'])
         # result['ver'] = verTest(stats['ver'])
     return result
+
 
 def check():
     return 3

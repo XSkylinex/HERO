@@ -5,7 +5,7 @@ zombie_searching = 40  # minutes
 
 # sensitivity configuration
 threshold_on = 91
-threshold_off = 40
+threshold_off = 60
 # the higher the number, the more influence that test will have.
 weights = {'cpu': 13, 'net': 8, 'ram': 8, 'name': 5, 'age': 8, 'uptime': 8, 'ver': 6, 'boot': 10}
 
@@ -21,4 +21,4 @@ whitelist_name = "whitelist.txt"
 # kvm information
 virtTech = 'kvm'
 server_ips = ['193.106.55.43']
-private_key_path = '/home/yael/.ssh/id_rsa'
+private_key_path = '/Users/alexandrmoshisnky/.ssh/id_rsa'

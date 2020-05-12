@@ -67,7 +67,7 @@ class dataAccess:
 
     def getSusZombies(self):
         if self.source == "file":
-            with open(config.project_path + '/' + zombie_list, 'r') as file:
+            with open(config.project_path + '/' + config.zombie_list, 'r') as file:
                 lines = file.readlines()
             return lines
 
@@ -90,11 +90,13 @@ class dataAccess:
             self.loader(vm_name, 'off')
 
     def saveVmResults(self, vm_name, score, results):
+        # print('saveVmResults\t', vm_name, '\t', score, '\t', results)
         if os.path.exists(config.project_path + '/' + vm_name + '.txt'):
             os.remove(config.project_path + '/' + vm_name + '.txt')
         with open(config.project_path + '/' + vm_name + '.txt', 'x') as file:
-            file.writelines("Final score (with weights)is: " + str(score) + '\n')
-            file.writelines('\n'.join(results))
+            file.write("Final score (with weights)is: " + str(score) + '\n')
+            for (key, score) in results:
+                file.write('{0} = {1} \n'.format(key, score))
             file.write('\n')
 
     def saveResults(self, results):
@@ -102,5 +104,5 @@ class dataAccess:
             os.remove(config.project_path + '/' + config.result_file)
         with open(config.project_path + '/' + config.result_file, 'x') as file:
             for (vm, score) in results:
-                file.writelines('{0} = {1} \n'.format(vm, score))
+                file.write('{0} = {1} \n'.format(vm, score))
             file.write('\n')

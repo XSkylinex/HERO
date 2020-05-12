@@ -47,23 +47,23 @@ def VmResults(vm, dataConn):
 
 def CheckPastResults(dataConn):
     print("Training!")
-    # sus_zombies = dataConn.getSusZombies()
-    # real_zombies = dataConn.getRealZombies()
-    # #todo: finish
-    #
-    # for vm in real_zombies:
-    #     if vm not in sus_zombies:
-    #         # get vm data. Add 1 to the two parameters with the highest score.
-    #         pass
-    # for vm in sus_zombies:
-    #     if vm not in real_zombies:
-    #         # get vm data. Subtract 1 to from the two parameters with the highest score.
-    #         pass
+    sus_zombies = dataConn.getSusZombies()
+    real_zombies = dataConn.getRealZombies()
+    #todo: finish
+
+    for vm in real_zombies:
+        if vm not in sus_zombies:
+            # get vm data. Add 1 to the two parameters with the highest score.
+            pass
+    for vm in sus_zombies:
+        if vm not in real_zombies:
+            # get vm data. Subtract 1 to from the two parameters with the highest score.
+            pass
 
 
 if __name__ == '__main__':
     dataConn = dataAccess.dataAccess("file", config.data_path)
-
+    print(sys.argv)
     if len(sys.argv) == 2:
         if sys.argv[1] == '-train' or sys.argv[1] == '-t':
             CheckPastResults(dataConn)
