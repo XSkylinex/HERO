@@ -1,8 +1,7 @@
-import HERO_Project.configuration as config
-import subprocess
-import HERO_Project.testConfiguration as test_config
 import os
-import datetime
+import subprocess
+
+import HERO_Project.configuration as config
 import HERO_Project.tests as tests
 
 
@@ -65,18 +64,18 @@ class dataAccess:
             file.writelines('\n'.join(zombies))
             file.write('\n')
 
-    def getSusZombies(self):
+    def getSusZombies(self) -> [str]:
         if self.source == "file":
             with open(config.project_path + '/' + config.zombie_list, 'r') as file:
                 lines = file.readlines()
-            return lines
+            return [s.rstrip('\n') for s in lines]
 
-    def getRealZombies(self):
+    def getRealZombies(self) -> [str]:
         if self.source == "file":
             with open(config.project_path + '/' + config.real_zombie_list, 'r') as file:
                 first_line_comment = file.readline()
                 lines = file.readlines()
-            return lines
+            return [s.rstrip('\n') for s in lines]
 
     def getVM(self, vm_name):
         # todo: fix!!!!
@@ -99,7 +98,7 @@ class dataAccess:
                 file.write('{0} = {1} \n'.format(key, score))
             file.write('\n')
 
-    def saveResults(self, results):
+    def saveResults(self, results: [(str, str)]):
         if os.path.exists(config.project_path + '/' + config.result_file):
             os.remove(config.project_path + '/' + config.result_file)
         with open(config.project_path + '/' + config.result_file, 'x') as file:

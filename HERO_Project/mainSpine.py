@@ -28,7 +28,7 @@ def CheckEveryServer(zombies, result, dataConn):
         CheckEveryVM(zombies, result, vmsDict, dataConn, 'on')
 
 
-def VmResults(vm, dataConn):
+def VmResults(vm: str, dataConn: dataAccess.dataAccess):
     # todo: make it work for not-active servers too
     for serv in config.server_ips:
         RemConn = remoteAccess.remoteConn(ip=serv, virt=config.virtTech)
@@ -45,25 +45,136 @@ def VmResults(vm, dataConn):
     return False
 
 
-def CheckPastResults(dataConn):
-    print("Training!")
-    sus_zombies = dataConn.getSusZombies()
-    real_zombies = dataConn.getRealZombies()
-    #todo: finish
+def getVmResult(vm: str, dataConn: dataAccess.dataAccess) -> [(str, str)]:
+    for serv in config.server_ips:
+        RemConn = remoteAccess.remoteConn(ip=serv, virt=config.virtTech)
+        vmsDict = RemConn.associateIps(RemConn.getVMs('active'))
+        if vm in vmsDict:
+            vm_data = dataConn.loader(vm=vm, fileName=vmsDict[vm], state='on')
+            results = tests.getVmResults(vm, vm_data, 'on')
+            return results
+    return
 
-    for vm in real_zombies:
-        if vm not in sus_zombies:
-            # get vm data. Add 1 to the two parameters with the highest score.
-            pass
-    for vm in sus_zombies:
-        if vm not in real_zombies:
-            # get vm data. Subtract 1 to from the two parameters with the highest score.
-            pass
+
+def CheckPastResults(dataConn: dataAccess.dataAccess):
+    print("Training!")
+
+    # get all zombies what the program found
+    sus_zombies = dataConn.getSusZombies()
+
+    # get all zombies what for training
+    real_zombies = dataConn.getRealZombies()
+
+    listRzVm = []
+    listSusVm = []
+
+    # convert from array triple to object
+    for rzVm in real_zombies:
+        arr = {}
+        for (i, j) in getVmResult(rzVm, dataConn):
+            arr[i] = j
+        listRzVm.append(arr)
+
+    # same here convert from array triple to object
+    for susVm in sus_zombies:
+        arr = {}
+        for (i, j) in getVmResult(susVm, dataConn):
+            arr[i] = j
+        listSusVm.append(arr)
+
+    # print("list of real zombie", listRzVm)
+    # print("list of sus zombile", listSusVm)
+
+    print(config.weights, "before")
+
+    # n^2 loop for check the wight of etch Real zombie to other zombie we found
+    for rzVm in listRzVm:
+        # count real zombie vm parameters if zombie we found is higher and add + 1
+        cpu = 0
+        nic = 0
+        ram = 0
+        uptime = 0
+        ver = 0
+        boot = 0
+        for susVm in listSusVm:
+            if rzVm['cpu'] < susVm['cpu']:
+                cpu += 1
+            if rzVm['nic'] < susVm['nic']:
+                nic += 1
+            if rzVm['ram'] < susVm['ram']:
+                ram += 1
+            if rzVm['uptime'] < susVm['uptime']:
+                uptime += 1
+            if rzVm['ver'] < susVm['ver']:
+                ver += 1
+            if rzVm['boot'] < susVm['boot']:
+                boot += 1
+
+        # average real zombie lower them we found
+        # if the average less them 50% less - 1 to cpu wight
+        # if the average higher them 50% add + 1 to cpu wight
+        # the 0.50 is default
+        # admin can change the percent by the needs
+        if cpu / listSusVm.__len__() > 0.50:
+            config.weights['cpu'] += 1
+        elif cpu / listSusVm.__len__() < 0.50:
+            config.weights['cpu'] -= 1
+
+        # average real zombie lower them we found
+        # if the average less them 50% less - 1 to network wight
+        # if the average higher them 50% add + 1 to network wight
+        # the 0.50 is default
+        # admin can change the percent by the needs
+        if nic / listSusVm.__len__() > 0.50:
+            config.weights['net'] += 1
+        elif nic / listSusVm.__len__() < 0.50:
+            config.weights['net'] -= 1
+
+        # average real zombie lower them we found
+        # if the average less them 50% less - 1 to ram wight
+        # if the average higher them 50% add + 1 to ram wight
+        # the 0.50 is default
+        # admin can change the percent by the needs
+        if ram / listSusVm.__len__() > 0.50:
+            config.weights['ram'] += 1
+        elif ram / listSusVm.__len__() < 0.50:
+            config.weights['ram'] -= 1
+
+        # average real zombie lower them we found
+        # if the average less them 50% less - 1 to uptime wight
+        # if the average higher them 50% add + 1 to uptime wight
+        # the 0.50 is default
+        # admin can change the percent by the needs
+        if uptime / listSusVm.__len__() > 0.50:
+            config.weights['uptime'] += 1
+        elif uptime / listSusVm.__len__() < 0.50:
+            config.weights['uptime'] -= 1
+
+        # average real zombie lower them we found
+        # if the average less them 50% less - 1 to version wight
+        # if the average higher them 50% add + 1 to version wight
+        # the 0.50 is default
+        # admin can change the percent by the needs
+        if ver / listSusVm.__len__() > 0.50:
+            config.weights['ver'] += 1
+        elif ver / listSusVm.__len__() < 0.50:
+            config.weights['ver'] -= 1
+
+        # average real zombie lower them we found
+        # if the average less them 50% less - 1 to boot wight
+        # if the average higher them 50% add + 1 to boot wight
+        # the 0.50 is default
+        # admin can change the percent by the needs
+        if boot / listSusVm.__len__() > 0.50:
+            config.weights['boot'] += 1
+        elif boot / listSusVm.__len__() < 0.50:
+            config.weights['boot'] -= 1
+
+    print(config.weights)
 
 
 if __name__ == '__main__':
     dataConn = dataAccess.dataAccess("file", config.data_path)
-    print(sys.argv)
     if len(sys.argv) == 2:
         if sys.argv[1] == '-train' or sys.argv[1] == '-t':
             CheckPastResults(dataConn)

@@ -21,8 +21,8 @@ bad_names = ['test', 'temp', 'check']
 up_days = 350
 
 # version check
-last_ver = 14.04 # last acceptable version
-kernel_ver = "3.10.0-1062"
+last_ver = 14.04 # version of linux who publish
+kernel_ver = "3.10.0-1062" # Kernel version for deep understating of VM
 
 # boot check
 past_days = 10

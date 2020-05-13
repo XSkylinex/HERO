@@ -11,7 +11,7 @@ from HERO_Project.Versions.VersionsCheck import VersionsCheck
 # TODO: write more tests
 
 
-def testVM(stats, state):
+def testVM(stats, state: str):
     sum = 0
     if state == "on":
         for par in test_list.values():
@@ -20,7 +20,7 @@ def testVM(stats, state):
     elif state == "off":
         sum += nameTest(stats['vm_name']) * test_config.weights['name']
         # sum += ageTest(stats['age']) * test_config.weights['age']
-        # sum += verTest(stats['ver']) * test_config.weights['ver']
+        sum += verTest(stats['ver']) * test_config.weights['ver']
     return sum
 
 
@@ -32,7 +32,7 @@ def getVmResults(vm_name, stats, state):
     elif state == "off":
         result.append(('vm_name', nameTest(stats['vm_name'])))
         # result['age'] = ageTest(stats['age'])
-        # result['ver'] = verTest(stats['ver'])
+        result['ver'] = verTest(stats['ver'])
     return result
 
 
