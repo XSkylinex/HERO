@@ -1,2 +1,1 @@
 # Every vm that should not be checked should be in a new line in this file. Do not change this comment.
-test04

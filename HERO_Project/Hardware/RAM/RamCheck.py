@@ -6,11 +6,11 @@ class RamCheck(object):
 
     @staticmethod
     def getRamData(ramData):
-        minRam = 0.10  # should be imported from the test configuration file
+        minRam = 8.35  # should be imported from the test configuration file
         count = 0
         # only brings back the cpu average lines, and from them only the number part
         startText = 'Used RAM: '
-        ramList = map(lambda l: (l[len(startText):].split('#')[0].split(' ')[0]), filter(lambda line: line.startswith(startText), ramData))
+        ramList = list(map(lambda l: (l[len(startText):].split('#')[0].split(' ')[0]), filter(lambda line: line.startswith(startText), ramData)))
 
         for ram in ramList:
             if ram == '':
@@ -19,7 +19,8 @@ class RamCheck(object):
             if float(ram) < minRam: count += 1
         # a number between 0 and 100-> if the list length is 100 and number of times the vm was idle is 70, will return 70
         # if list length is 170 and times the vm was idle is 65, will return 38.
-        return (count * 100 / len(ramData))
+        #print((count * 100 / len(ramList)))
+        return (count * 100/ len(ramList))
 
 
 
