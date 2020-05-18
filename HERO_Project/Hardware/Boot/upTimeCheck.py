@@ -10,4 +10,4 @@ def uptimeCheck(data):
         updays = float(cur.split(':')[1].strip())
         if updays > 40:
             return 10
-        return 5
+        return 1

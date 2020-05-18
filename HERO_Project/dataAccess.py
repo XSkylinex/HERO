@@ -93,7 +93,7 @@ class dataAccess:
         if os.path.exists(config.project_path + '/' + vm_name + '.txt'):
             os.remove(config.project_path + '/' + vm_name + '.txt')
         with open(config.project_path + '/' + vm_name + '.txt', 'x') as file:
-            file.writelines("Final score (with weights)is: " + str(score) + '\n')
+            file.writelines("Final score (with weights) is: " + str(score) + '\n')
             file.writelines('\n'.join(results))
             file.write('\n')
 

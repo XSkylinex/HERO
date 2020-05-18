@@ -2,6 +2,7 @@ import re
 from datetime import datetime
 import HERO_Project.testConfiguration as test_config
 from HERO_Project.Hardware.CPU.CpuCheck import CpuCheck
+from HERO_Project.Hardware.NetworkCard import netCheck
 from HERO_Project.Hardware.RAM.RamCheck import RamCheck
 from HERO_Project.Hardware.Boot.bootCheck import bootCheck
 from HERO_Project.Hardware.Boot.upTimeCheck import uptimeCheck
@@ -19,7 +20,6 @@ def testVM(stats, state):
         sum += nameTest(stats['vm_name']) * test_config.weights['name']
     elif state == "off":
         sum += nameTest(stats['vm_name']) * test_config.weights['name']
-        # sum += ageTest(stats['age']) * test_config.weights['age']
         # sum += verTest(stats['ver']) * test_config.weights['ver']
     return sum
 
@@ -76,7 +76,7 @@ def nameTest(data: str):
 
 
 test_list = {'cpu': {'name': 'cpu', 'prefix': 'CPU Average:', 'func': cpuTest},
-             'nic': {'name': 'nic', 'prefix': 'Network ', 'func': netTest},
+             'net': {'name': 'net', 'prefix': 'Network ', 'func': netTest},
              'ram': {'name': 'ram', 'prefix': 'Used RAM:', 'func': ramTest},
              'uptime': {'name': 'uptime', 'prefix': 'Uptime:', 'func': uptimeTest},
              'ver': {'name': 'ver', 'prefix': 'Kernel version:', 'func': verTest},
