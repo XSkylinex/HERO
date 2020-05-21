@@ -2,14 +2,11 @@ import re
 from datetime import datetime
 import HERO_Project.testConfiguration as test_config
 from HERO_Project.Hardware.CPU.CpuCheck import CpuCheck
-from HERO_Project.Hardware.NetworkCard import netCheck
+from HERO_Project.Hardware.NetworkCard.NetworkCardCheck import networkCheck
 from HERO_Project.Hardware.RAM.RamCheck import RamCheck
 from HERO_Project.Hardware.Boot.bootCheck import bootCheck
 from HERO_Project.Hardware.Boot.upTimeCheck import uptimeCheck
 from HERO_Project.Versions.VersionsCheck import VersionsCheck
-
-
-# TODO: write more tests
 
 
 def testVM(stats, state):
@@ -34,6 +31,7 @@ def getVmResults(vm_name, stats, state):
         # result['age'] = ageTest(stats['age'])
         # result['ver'] = verTest(stats['ver'])
     return result
+
 
 def check():
     return 3
@@ -62,7 +60,7 @@ def ageTest(data):
 
 
 def netTest(data):
-    return 10
+    return networkCheck(data, test_config.in_min_day_load, test_config.out_min_day_load)
 
 
 def ramTest(data):

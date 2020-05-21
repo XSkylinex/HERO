@@ -1,0 +1,8 @@
+Final score (with weights)is: 137.65863453815263
+cpu = 21.017402945113787 
+net = 0 
+ram = 17.202141900937082 
+uptime = 1 
+ver = 0 
+boot = 1 
+

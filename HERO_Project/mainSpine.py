@@ -18,13 +18,10 @@ def CheckEveryVM(zombies, result, vmsDict, dataConn, state):
 def CheckEveryServer(zombies, result, dataConn):
     for serv in config.server_ips:
         RemConn = remoteAccess.remoteConn(ip=serv, virt=config.virtTech)
-        # TODO: add inactive vms checking
         # do shutdown vms still get an ip address?
 
         vms = dataConn.clearVms(RemConn.getVMs('active'))
-        # print(vms)
         vmsDict = RemConn.associateIps(vms)
-        # print(vmsDict)
         CheckEveryVM(zombies, result, vmsDict, dataConn, 'on')
 
 
@@ -34,6 +31,7 @@ def VmResults(vm: str, dataConn: dataAccess.dataAccess):
         RemConn = remoteAccess.remoteConn(ip=serv, virt=config.virtTech)
         vmsDict = RemConn.associateIps(RemConn.getVMs('active'))
         if vm in vmsDict:
+            print(vmsDict[vm])
             vm_data = dataConn.loader(vm=vm, fileName=vmsDict[vm], state='on')
             score = tests.testVM(vm_data, "on")
             print(score)

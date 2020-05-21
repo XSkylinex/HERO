@@ -3,12 +3,15 @@
 
 
 # the higher the number, the more influence that test will have.
-weights = {'cpu': 3, 'nic': 3, 'ram': 3, 'name': 2, 'age':2, 'uptime':1, 'ver':2, 'boot':2}
+weights = {'cpu': 3, 'net': 3, 'ram': 3, 'name': 2, 'age':2, 'uptime':1, 'ver':2, 'boot':2}
 
 # tests:
 # cpu check
 
 # network check
+#todo: check
+in_min_day_load = 6000 # packets received
+out_min_day_load = 4000 # packets transmitted
 
 # ram check
 

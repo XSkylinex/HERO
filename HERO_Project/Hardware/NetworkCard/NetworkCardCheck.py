@@ -1,8 +1,59 @@
-def netCheck(data):
-    pass
+def networkCheck(data, in_min, out_min):
+    data = cutTime(data)
+    count = 0
+    day = []
+    found = False
+    while data and not found:
+        cur = data.pop()
+        if cur.startswith('Date:'):
+            newDate = cur
+            found = True
 
-def makeDayAverage(data):
-    pass
+    while data:
+        cur = data.pop()
+        if cur.startswith('Date:'):
+            if cur != newDate:
+                count += checkDay(day, in_min, out_min)
+                day = []
+                newDate = cur
+        else:
+            day.append(cur)
+    return count
+
+
+def checkDay(day, in_min, out_min):
+    add = 0
+    transStart = -1
+    recvStart = -1
+    transEnd = -1
+    recvEnd = -1
+    for line in day:
+        if line.startswith('Network transmit:') and transStart == -1:
+            transStart = int(line.split(':')[1].strip())
+        if line.startswith('Network receive:') and recvStart == -1:
+            recvStart = int(line.split(':')[1].strip())
+        if transStart != -1 and recvStart != -1:
+            break
+
+    while (day):
+        cur = day.pop()
+        if cur.startswith('Network transmit:') and transEnd == -1:
+            transEnd = int(cur.split(':')[1].strip())
+        if cur.startswith('Network transmit:') and recvEnd == -1:
+            recvEnd = int(cur.split(':')[1].strip())
+        if transEnd != -1 and recvEnd != -1:
+            break
+
+    if transStart < transEnd and transEnd - transStart < out_min:
+        print('transmit start: {0}'.format(transStart))
+        print('transmit end: {0}'.format(transEnd))
+        add += 1
+    if recvStart < recvEnd and recvEnd - recvStart < in_min:
+        print('receive start: {0}'.format(recvStart))
+        print('receive end: {0}'.format(recvEnd))
+        add += 1
+    return add
+
 
 def cutTime(data):
     newData = []

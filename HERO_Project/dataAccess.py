@@ -94,7 +94,7 @@ class dataAccess:
             os.remove(config.project_path + '/' + vm_name + '.txt')
         with open(config.project_path + '/' + vm_name + '.txt', 'x') as file:
             file.write("Final score (with weights)is: " + str(score) + '\n')
-            for (key, score) in results:
+            for (key, score) in results.items():
                 file.write('{0} = {1} \n'.format(key, score))
             file.write('\n')
 
