@@ -1,1 +1,11 @@
 # The actual zombies found since the last operation of HERO
+prod01
+prod02
+prod03
+prod04
+prod05
+prod06
+prod07
+prod08
+prod09
+prod10

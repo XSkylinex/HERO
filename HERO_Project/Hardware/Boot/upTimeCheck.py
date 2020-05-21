@@ -7,7 +7,10 @@ def uptimeCheck(data):
         return 1
     if cur.startswith("Uptime"):
         cur = cur.split('#')[0].strip()
-        updays = float(cur.split(':')[1].strip())
+        try:
+            updays = float(cur.split(':')[1].strip())
+        except:
+            updays = 0
         if updays > 40:
             return 10
         return 1

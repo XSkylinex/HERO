@@ -17,7 +17,6 @@ def testVM(stats, state):
         sum += nameTest(stats['vm_name']) * test_config.weights['name']
     elif state == "off":
         sum += nameTest(stats['vm_name']) * test_config.weights['name']
-        # sum += verTest(stats['ver']) * test_config.weights['ver']
     return sum
 
 
@@ -28,8 +27,6 @@ def getVmResults(vm_name, stats, state):
             result[par['name']] = par['func'](stats[par['name']])
     elif state == "off":
         result['vm_name'] = nameTest(stats['vm_name'])
-        # result['age'] = ageTest(stats['age'])
-        # result['ver'] = verTest(stats['ver'])
     return result
 
 

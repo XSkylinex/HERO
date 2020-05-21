@@ -48,10 +48,8 @@ def getVmResult(vm: str, dataConn: dataAccess.dataAccess) -> [(str, str)]:
         RemConn = remoteAccess.remoteConn(ip=serv, virt=config.virtTech)
         vmsDict = RemConn.associateIps(RemConn.getVMs('active'))
         if vm in vmsDict:
-            print(vm)
             vm_data = dataConn.loader(vm=vm, fileName=vmsDict[vm], state='on')
             results = tests.getVmResults(vm, vm_data, 'on')
-            print(results)
             return results
     return
 
@@ -71,19 +69,19 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
     # convert from array triple to object
     for rzVm in real_zombies:
         arr = {}
-        for (i, j) in getVmResult(rzVm, dataConn):
+        for (i, j) in getVmResult(rzVm, dataConn).items():
             arr[i] = j
         listRzVm.append(arr)
 
     # same here convert from array triple to object
     for susVm in sus_zombies:
         arr = {}
-        for (i, j) in getVmResult(susVm, dataConn):
+        for (i, j) in getVmResult(susVm, dataConn).items():
             arr[i] = j
         listSusVm.append(arr)
 
-    # print("list of real zombie", listRzVm)
-    # print("list of sus zombile", listSusVm)
+    print("list of real zombie", listRzVm)
+    print("list of sus zombile", listSusVm)
 
     print(config.weights, "before")
 
@@ -99,13 +97,14 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
         for susVm in listSusVm:
             if rzVm['cpu'] < susVm['cpu']:
                 cpu += 1
-            if rzVm['nic'] < susVm['nic']:
+            if rzVm['net'] < susVm['net']:
                 nic += 1
             if rzVm['ram'] < susVm['ram']:
                 ram += 1
             if rzVm['uptime'] < susVm['uptime']:
                 uptime += 1
             if rzVm['ver'] < susVm['ver']:
+                print(rzVm['ver'], "<", susVm['ver'])
                 ver += 1
             if rzVm['boot'] < susVm['boot']:
                 boot += 1
