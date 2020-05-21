@@ -170,6 +170,20 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
             config.weights['boot'] -= 1
 
     print(config.weights)
+    with open('configuration.py', 'r') as file:
+        nw = ""
+        for line in file.readlines():
+            if not line.startswith('weights'):
+                nw = nw + line
+            else:
+                nwe = 'weights = {'
+                for key, value in config.weights.items():
+                    print(value)
+                    nwe += "'{0}': {1}, ".format(key, value)
+                nwe = nwe[:-2]
+                nw += nwe + '}\n'
+    with open('configuration.py', 'w') as file:
+        file.write(nw)
 
 
 
