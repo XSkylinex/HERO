@@ -25,7 +25,7 @@ def CheckEveryServer(zombies, result, dataConn):
         CheckEveryVM(zombies, result, vmsDict, dataConn, 'on')
 
 
-def VmResults(vm: str, dataConn: dataAccess.dataAccess):
+def VmResults(vm: str, dataConn):
     # todo: make it work for not-active servers too
     for serv in config.server_ips:
         RemConn = remoteAccess.remoteConn(ip=serv, virt=config.virtTech)
@@ -48,8 +48,10 @@ def getVmResult(vm: str, dataConn: dataAccess.dataAccess) -> [(str, str)]:
         RemConn = remoteAccess.remoteConn(ip=serv, virt=config.virtTech)
         vmsDict = RemConn.associateIps(RemConn.getVMs('active'))
         if vm in vmsDict:
+            print(vm)
             vm_data = dataConn.loader(vm=vm, fileName=vmsDict[vm], state='on')
             results = tests.getVmResults(vm, vm_data, 'on')
+            print(results)
             return results
     return
 
