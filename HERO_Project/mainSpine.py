@@ -178,7 +178,6 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
             else:
                 nwe = 'weights = {'
                 for key, value in config.weights.items():
-                    print(value)
                     nwe += "'{0}': {1}, ".format(key, value)
                 nwe = nwe[:-2]
                 nw += nwe + '}\n'
