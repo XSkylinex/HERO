@@ -80,8 +80,8 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
             arr[i] = j
         listSusVm.append(arr)
 
-    print("list of real zombie", listRzVm)
-    print("list of sus zombile", listSusVm)
+    #print("list of real zombie", listRzVm)
+    #print("list of sus zombile", listSusVm)
 
     print(config.weights, "before")
 
@@ -104,7 +104,6 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
             if rzVm['uptime'] < susVm['uptime']:
                 uptime += 1
             if rzVm['ver'] < susVm['ver']:
-                print(rzVm['ver'], "<", susVm['ver'])
                 ver += 1
             if rzVm['boot'] < susVm['boot']:
                 boot += 1
@@ -116,7 +115,7 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
         # admin can change the percent by the needs
         if cpu / listSusVm.__len__() > 0.50:
             config.weights['cpu'] += 1
-        elif cpu / listSusVm.__len__() < 0.50:
+        elif cpu / listSusVm.__len__() < 0.50 and cpu / listSusVm.__len__() != 0:
             config.weights['cpu'] -= 1
 
         # average real zombie lower them we found
@@ -126,7 +125,7 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
         # admin can change the percent by the needs
         if nic / listSusVm.__len__() > 0.50:
             config.weights['net'] += 1
-        elif nic / listSusVm.__len__() < 0.50:
+        elif nic / listSusVm.__len__() < 0.50 and nic / listSusVm.__len__() != 0:
             config.weights['net'] -= 1
 
         # average real zombie lower them we found
@@ -136,7 +135,7 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
         # admin can change the percent by the needs
         if ram / listSusVm.__len__() > 0.50:
             config.weights['ram'] += 1
-        elif ram / listSusVm.__len__() < 0.50:
+        elif ram / listSusVm.__len__() < 0.50 and ram / listSusVm.__len__() != 0:
             config.weights['ram'] -= 1
 
         # average real zombie lower them we found
@@ -146,7 +145,7 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
         # admin can change the percent by the needs
         if uptime / listSusVm.__len__() > 0.50:
             config.weights['uptime'] += 1
-        elif uptime / listSusVm.__len__() < 0.50:
+        elif uptime / listSusVm.__len__() < 0.50 and uptime / listSusVm.__len__() != 0:
             config.weights['uptime'] -= 1
 
         # average real zombie lower them we found
@@ -156,7 +155,7 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
         # admin can change the percent by the needs
         if ver / listSusVm.__len__() > 0.50:
             config.weights['ver'] += 1
-        elif ver / listSusVm.__len__() < 0.50:
+        elif ver / listSusVm.__len__() < 0.50 and ver / listSusVm.__len__() != 0:
             config.weights['ver'] -= 1
 
         # average real zombie lower them we found
@@ -166,10 +165,11 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
         # admin can change the percent by the needs
         if boot / listSusVm.__len__() > 0.50:
             config.weights['boot'] += 1
-        elif boot / listSusVm.__len__() < 0.50:
+        elif boot / listSusVm.__len__() < 0.50 and boot / listSusVm.__len__() != 0:
             config.weights['boot'] -= 1
 
     print(config.weights)
+
 
 
 if __name__ == '__main__':
