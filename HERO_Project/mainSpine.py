@@ -23,6 +23,11 @@ def CheckEveryServer(zombies, result, dataConn):
         vms = dataConn.clearVms(RemConn.getVMs('active'))
         vmsDict = RemConn.associateIps(vms)
         CheckEveryVM(zombies, result, vmsDict, dataConn, 'on')
+        for vm in vms:
+            if vm not in vmsDict:
+                result.append((vm, "no nic"))
+                zombies.append(vm)
+
 
 
 def VmResults(vm: str, dataConn):
