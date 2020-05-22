@@ -118,60 +118,66 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
         # if the average higher them 50% add + 1 to cpu wight
         # the 0.50 is default
         # admin can change the percent by the needs
-        if cpu / len_listSusVm > 0.50:
-            config.weights['cpu'] += 1
-        elif cpu / len_listSusVm < 0.50 and cpu != 0:
-            config.weights['cpu'] -= 1
+        if config.weights['cpu'] != 0:
+            if cpu / len_listSusVm > 0.50:
+                config.weights['cpu'] += 1
+            elif cpu / len_listSusVm < 0.50 and cpu != 0:
+                config.weights['cpu'] -= 1
 
         # average real zombie lower them we found
         # if the average less them 50% less - 1 to network wight
         # if the average higher them 50% add + 1 to network wight
         # the 0.50 is default
         # admin can change the percent by the needs
-        if nic / len_listSusVm > 0.50:
-            config.weights['net'] += 1
-        elif nic / len_listSusVm < 0.50 and nic != 0:
-            config.weights['net'] -= 1
+        if config.weights['net'] != 0:
+            if nic / len_listSusVm > 0.50:
+                config.weights['net'] += 1
+            elif nic / len_listSusVm < 0.50 and nic != 0:
+                config.weights['net'] -= 1
 
         # average real zombie lower them we found
         # if the average less them 50% less - 1 to ram wight
         # if the average higher them 50% add + 1 to ram wight
         # the 0.50 is default
         # admin can change the percent by the needs
-        if ram / len_listSusVm > 0.50:
-            config.weights['ram'] += 1
-        elif ram / len_listSusVm < 0.50 and ram != 0:
-            config.weights['ram'] -= 1
+        if config.weights['ram'] != 0:
+            if ram / len_listSusVm > 0.50:
+                config.weights['ram'] += 1
+            elif ram / len_listSusVm < 0.50 and ram != 0:
+                config.weights['ram'] -= 1
 
         # average real zombie lower them we found
         # if the average less them 50% less - 1 to uptime wight
         # if the average higher them 50% add + 1 to uptime wight
         # the 0.50 is default
         # admin can change the percent by the needs
-        if uptime / len_listSusVm > 0.50:
-            config.weights['uptime'] += 1
-        elif uptime / len_listSusVm < 0.50 and uptime != 0:
-            config.weights['uptime'] -= 1
+        if config.weights['uptime'] != 0:
+            if uptime / len_listSusVm > 0.50:
+                config.weights['uptime'] += 1
+            elif uptime / len_listSusVm < 0.50 and uptime != 0:
+                config.weights['uptime'] -= 1
 
         # average real zombie lower them we found
         # if the average less them 50% less - 1 to version wight
         # if the average higher them 50% add + 1 to version wight
         # the 0.50 is default
         # admin can change the percent by the needs
-        if ver / len_listSusVm > 0.50:
-            config.weights['ver'] += 1
-        elif ver / len_listSusVm < 0.50 and ver != 0:
-            config.weights['ver'] -= 1
+        if config.weights['ver'] != 0:
+            if ver / len_listSusVm > 0.50:
+                config.weights['ver'] += 1
+            elif ver / len_listSusVm < 0.50 and ver != 0:
+                config.weights['ver'] -= 1
 
         # average real zombie lower them we found
         # if the average less them 50% less - 1 to boot wight
         # if the average higher them 50% add + 1 to boot wight
         # the 0.50 is default
         # admin can change the percent by the needs
-        if boot / len_listSusVm > 0.50:
-            config.weights['boot'] += 1
-        elif boot / len_listSusVm < 0.50 and boot != 0:
-            config.weights['boot'] -= 1
+        if config.weights['boot'] != 0:
+            if boot / len_listSusVm > 0.50:
+                config.weights['boot'] += 1
+            elif boot / len_listSusVm < 0.50 and boot != 0:
+                config.weights['boot'] -= 1
 
     print(config.weights)
     with open('configuration.py', 'r') as file:

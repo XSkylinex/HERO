@@ -19,8 +19,11 @@ class RamCheck(object):
             if float(ram) < minRam: count += 1
         # a number between 0 and 100-> if the list length is 100 and number of times the vm was idle is 70, will return 70
         # if list length is 170 and times the vm was idle is 65, will return 38.
-        #print((count * 100 / len(ramList)))
-        return ((count * 100/ len(ramList)))
+
+        print((count / len(ramList)))
+        #return round(count/len(ramList), 2)
+        print("lan(ramList): ", len(ramList), "count: ", count, "round: ", round(count/len(ramList), 2))
+        return round(count/len(ramList), 2)
 
 
 

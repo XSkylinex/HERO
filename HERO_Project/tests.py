@@ -20,7 +20,6 @@ def testVM(stats, state):
         sum += nameTest(stats['vm_name']) * config.weights['name']
     return sum
 
-
 def getVmResults(vm_name, stats, state):
     result = {}
     if state == "on":
