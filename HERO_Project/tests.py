@@ -57,7 +57,8 @@ def ageTest(data):
 
 
 def netTest(data):
-    return networkCheck(data, test_config.in_min_day_load, test_config.out_min_day_load)
+   return networkCheck(data, test_config.in_min_day_load, test_config.out_min_day_load)
+
 
 
 def ramTest(data):

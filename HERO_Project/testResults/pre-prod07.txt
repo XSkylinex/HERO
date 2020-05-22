@@ -1,6 +1,6 @@
-Final score (with weights)is: 35.71389645776567
+Final score (with weights)is: 65.71389645776567
 cpu = 4.9046321525885554 
-net = 0 
+net = 10 
 ram = 0.0 
 uptime = 1 
 ver = 0 

@@ -13,12 +13,13 @@ def networkCheck(data, in_min, out_min):
         cur = data.pop()
         if cur.startswith('Date:'):
             if cur != newDate:
-                count += checkDay(day, in_min, out_min)
+                day.reverse()
+                count += checkDay(day,in_min,out_min)
                 day = []
                 newDate = cur
         else:
             day.append(cur)
-    return count
+    return (count*100%101.0000001)
 
 
 def checkDay(day, in_min, out_min):
@@ -53,6 +54,7 @@ def checkDay(day, in_min, out_min):
         print('receive end: {0}'.format(recvEnd))
         add += 1
     return add
+
 
 
 def cutTime(data):
