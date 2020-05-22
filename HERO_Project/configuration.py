@@ -21,4 +21,6 @@ whitelist_name = "whitelist.txt"
 # kvm information
 virtTech = 'kvm'
 server_ips = ['193.106.55.43']
-private_key_path = '/home/yael/.ssh/id_rsa'
+private_key_path = 'C:/Users/jhall/ssh/id_rsa'
+
+

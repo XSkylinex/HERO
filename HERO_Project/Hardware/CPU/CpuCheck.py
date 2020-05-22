@@ -8,7 +8,7 @@ class CpuCheck(object):
         cpuList = list(map(lambda l: (l[12:].split('#'))[0], filter(lambda line: line.startswith('CPU Average:'), cpuData)))
         for cpu in cpuList:
             # if this is a cpu data line
-            if float(cpu) < minCPU:
+            if float(cpu) > minCPU:
                 count += 1
         # a number between 0 and 100-> if the list length is 100 and number of times the vm was idle is 70, will return 70
         # if list length is 170 and times the vm was idle is 65, will return 38.
