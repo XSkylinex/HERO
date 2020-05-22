@@ -6,7 +6,7 @@ class RamCheck(object):
 
     @staticmethod
     def getRamData(ramData):
-        minRam = 3.5  # should be imported from the test configuration file
+        minRam = 8.4  # should be imported from the test configuration file
         count = 0
         # only brings back the cpu average lines, and from them only the number part
         startText = 'Used RAM: '

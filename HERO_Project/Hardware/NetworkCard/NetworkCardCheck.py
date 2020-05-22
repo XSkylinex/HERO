@@ -19,7 +19,7 @@ def networkCheck(data, in_min, out_min):
                 newDate = cur
         else:
             day.append(cur)
-    return (count*100%101.0000001)
+    return count
 
 
 def checkDay(day, in_min, out_min):
@@ -46,12 +46,12 @@ def checkDay(day, in_min, out_min):
             break
 
     if transStart < transEnd and transEnd - transStart < out_min:
-        print('transmit start: {0}'.format(transStart))
-        print('transmit end: {0}'.format(transEnd))
+       # print('transmit start: {0}'.format(transStart))
+       # print('transmit end: {0}'.format(transEnd))
         add += 1
     if recvStart < recvEnd and recvEnd - recvStart < in_min:
-        print('receive start: {0}'.format(recvStart))
-        print('receive end: {0}'.format(recvEnd))
+       # print('receive start: {0}'.format(recvStart))
+      #  print('receive end: {0}'.format(recvEnd))
         add += 1
     return add
 

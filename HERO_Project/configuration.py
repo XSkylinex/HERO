@@ -7,7 +7,7 @@ zombie_searching = 40  # minutes
 threshold_on = 100
 threshold_off = 40
 # the higher the number, the more influence that test will have.
-weights = {'cpu': 3, 'net': 3, 'ram': 3, 'name': 2, 'age':2, 'uptime':1, 'ver':2, 'boot':2}
+weights = {'cpu': 15, 'net': 3, 'ram': 53, 'name': 2, 'age': 2, 'uptime': 1, 'ver': 2, 'boot': 2}
 
 # general configuration
 zombie_list = "zombies.txt"

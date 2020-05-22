@@ -2,22 +2,18 @@ class CpuCheck(object):
 
     @classmethod
     def getCPUData(cls, cpuData):
-        minCPU = 0.07  # should be imported from the test configuration file
+        minCPU = 0.05  # should be imported from the test configuration file
         count = 0
         # only brings back the cpu average lines, and from them only the number part
         cpuList = list(map(lambda l: (l[12:].split('#'))[0], filter(lambda line: line.startswith('CPU Average:'), cpuData)))
         for cpu in cpuList:
             # if this is a cpu data line
-            if float(cpu) < minCPU:
+            if float(cpu) <= minCPU:
                 count += 1
         # a number between 0 and 100-> if the list length is 100 and number of times the vm was idle is 70, will return 70
         # if list length is 170 and times the vm was idle is 65, will return 38.
         # print(count * 100 / len(cpuList))
-        return (count * 100/ len(cpuList))
-
-
-
-
+        return round(count / len(cpuList), 2)
 
     #
     # def __init__(self, date: datetime, cpu: float):
