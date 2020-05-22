@@ -16074,3 +16074,1627 @@ Network receive: 11932733  #node_network_receive_packets_total
 Used RAM: 8.77969 #Used RAM
 Uptime: 0.5 #In days
 Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:02:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11856903  #node_network_transmit_packets_total
+Network receive: 11942943  #node_network_receive_packets_total
+Used RAM: 8.78571 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:03:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11867064  #node_network_transmit_packets_total
+Network receive: 11953154  #node_network_receive_packets_total
+Used RAM: 8.78082 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:04:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11877223  #node_network_transmit_packets_total
+Network receive: 11963362  #node_network_receive_packets_total
+Used RAM: 8.77875 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:05:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11887380  #node_network_transmit_packets_total
+Network receive: 11973569  #node_network_receive_packets_total
+Used RAM: 8.77957 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:06:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11897541  #node_network_transmit_packets_total
+Network receive: 11983781  #node_network_receive_packets_total
+Used RAM: 8.6817 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:07:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11907699  #node_network_transmit_packets_total
+Network receive: 11993988  #node_network_receive_packets_total
+Used RAM: 8.78184 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:08:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11917859  #node_network_transmit_packets_total
+Network receive: 12004199  #node_network_receive_packets_total
+Used RAM: 8.78163 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:09:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11928018  #node_network_transmit_packets_total
+Network receive: 12014408  #node_network_receive_packets_total
+Used RAM: 8.78163 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:10:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11938178  #node_network_transmit_packets_total
+Network receive: 12024616  #node_network_receive_packets_total
+Used RAM: 8.78068 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:11:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11948338  #node_network_transmit_packets_total
+Network receive: 12034828  #node_network_receive_packets_total
+Used RAM: 8.78068 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:12:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11958498  #node_network_transmit_packets_total
+Network receive: 12045037  #node_network_receive_packets_total
+Used RAM: 8.78026 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:13:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11968656  #node_network_transmit_packets_total
+Network receive: 12055244  #node_network_receive_packets_total
+Used RAM: 8.78078 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:14:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11978813  #node_network_transmit_packets_total
+Network receive: 12065453  #node_network_receive_packets_total
+Used RAM: 8.78056 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:15:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11988972  #node_network_transmit_packets_total
+Network receive: 12075662  #node_network_receive_packets_total
+Used RAM: 8.78035 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:16:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 11999133  #node_network_transmit_packets_total
+Network receive: 12085873  #node_network_receive_packets_total
+Used RAM: 8.78035 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:17:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12009292  #node_network_transmit_packets_total
+Network receive: 12096082  #node_network_receive_packets_total
+Used RAM: 8.78014 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:18:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12019450  #node_network_transmit_packets_total
+Network receive: 12106290  #node_network_receive_packets_total
+Used RAM: 8.77941 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:19:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12029610  #node_network_transmit_packets_total
+Network receive: 12116500  #node_network_receive_packets_total
+Used RAM: 8.78499 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:20:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12039763  #node_network_transmit_packets_total
+Network receive: 12126701  #node_network_receive_packets_total
+Used RAM: 8.78499 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:21:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12049921  #node_network_transmit_packets_total
+Network receive: 12136911  #node_network_receive_packets_total
+Used RAM: 8.78582 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:22:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12060082  #node_network_transmit_packets_total
+Network receive: 12147122  #node_network_receive_packets_total
+Used RAM: 8.78582 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:23:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12070237  #node_network_transmit_packets_total
+Network receive: 12157327  #node_network_receive_packets_total
+Used RAM: 8.78561 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:24:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12080398  #node_network_transmit_packets_total
+Network receive: 12167538  #node_network_receive_packets_total
+Used RAM: 8.78539 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:25:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12090559  #node_network_transmit_packets_total
+Network receive: 12177748  #node_network_receive_packets_total
+Used RAM: 8.78539 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:26:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12100717  #node_network_transmit_packets_total
+Network receive: 12187956  #node_network_receive_packets_total
+Used RAM: 8.78393 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:27:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12110874  #node_network_transmit_packets_total
+Network receive: 12198164  #node_network_receive_packets_total
+Used RAM: 8.78372 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:28:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12121035  #node_network_transmit_packets_total
+Network receive: 12208375  #node_network_receive_packets_total
+Used RAM: 8.78351 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:29:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12131196  #node_network_transmit_packets_total
+Network receive: 12218586  #node_network_receive_packets_total
+Used RAM: 8.78454 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:30:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12141357  #node_network_transmit_packets_total
+Network receive: 12228797  #node_network_receive_packets_total
+Used RAM: 8.78454 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:31:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12151519  #node_network_transmit_packets_total
+Network receive: 12239008  #node_network_receive_packets_total
+Used RAM: 8.68345 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:32:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12161676  #node_network_transmit_packets_total
+Network receive: 12249215  #node_network_receive_packets_total
+Used RAM: 8.67443 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:33:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12171835  #node_network_transmit_packets_total
+Network receive: 12259424  #node_network_receive_packets_total
+Used RAM: 8.674 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:34:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12181994  #node_network_transmit_packets_total
+Network receive: 12269634  #node_network_receive_packets_total
+Used RAM: 8.78245 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:35:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12192151  #node_network_transmit_packets_total
+Network receive: 12279839  #node_network_receive_packets_total
+Used RAM: 8.78202 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:36:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12202306  #node_network_transmit_packets_total
+Network receive: 12290046  #node_network_receive_packets_total
+Used RAM: 8.71954 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:37:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12212466  #node_network_transmit_packets_total
+Network receive: 12300256  #node_network_receive_packets_total
+Used RAM: 8.779 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:38:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12222627  #node_network_transmit_packets_total
+Network receive: 12310467  #node_network_receive_packets_total
+Used RAM: 8.78575 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:39:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12232785  #node_network_transmit_packets_total
+Network receive: 12320673  #node_network_receive_packets_total
+Used RAM: 8.78575 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:40:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12242940  #node_network_transmit_packets_total
+Network receive: 12330880  #node_network_receive_packets_total
+Used RAM: 8.78532 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:41:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12253098  #node_network_transmit_packets_total
+Network receive: 12341088  #node_network_receive_packets_total
+Used RAM: 8.78511 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:42:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12263258  #node_network_transmit_packets_total
+Network receive: 12351296  #node_network_receive_packets_total
+Used RAM: 8.78438 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:43:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12273417  #node_network_transmit_packets_total
+Network receive: 12361507  #node_network_receive_packets_total
+Used RAM: 8.78438 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:44:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12283577  #node_network_transmit_packets_total
+Network receive: 12371717  #node_network_receive_packets_total
+Used RAM: 8.78416 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:45:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12293736  #node_network_transmit_packets_total
+Network receive: 12381926  #node_network_receive_packets_total
+Used RAM: 8.78447 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:46:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12303897  #node_network_transmit_packets_total
+Network receive: 12392137  #node_network_receive_packets_total
+Used RAM: 8.78426 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:47:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12314057  #node_network_transmit_packets_total
+Network receive: 12402347  #node_network_receive_packets_total
+Used RAM: 8.78405 #Used RAM
+Uptime: 0.5 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:48:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12324217  #node_network_transmit_packets_total
+Network receive: 12412557  #node_network_receive_packets_total
+Used RAM: 8.78405 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:49:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12334376  #node_network_transmit_packets_total
+Network receive: 12422764  #node_network_receive_packets_total
+Used RAM: 8.78341 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:50:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12344532  #node_network_transmit_packets_total
+Network receive: 12432971  #node_network_receive_packets_total
+Used RAM: 8.78289 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:51:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12354687  #node_network_transmit_packets_total
+Network receive: 12443175  #node_network_receive_packets_total
+Used RAM: 8.7889 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:52:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12364846  #node_network_transmit_packets_total
+Network receive: 12453385  #node_network_receive_packets_total
+Used RAM: 8.7889 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:53:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12375005  #node_network_transmit_packets_total
+Network receive: 12463595  #node_network_receive_packets_total
+Used RAM: 8.78951 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:54:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12385164  #node_network_transmit_packets_total
+Network receive: 12473803  #node_network_receive_packets_total
+Used RAM: 8.7893 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:55:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12395320  #node_network_transmit_packets_total
+Network receive: 12484008  #node_network_receive_packets_total
+Used RAM: 8.7893 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:56:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12405480  #node_network_transmit_packets_total
+Network receive: 12494220  #node_network_receive_packets_total
+Used RAM: 8.68427 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:57:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12415641  #node_network_transmit_packets_total
+Network receive: 12504430  #node_network_receive_packets_total
+Used RAM: 8.6822 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:58:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12425798  #node_network_transmit_packets_total
+Network receive: 12514638  #node_network_receive_packets_total
+Used RAM: 8.7897 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 13:59:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12435956  #node_network_transmit_packets_total
+Network receive: 12524846  #node_network_receive_packets_total
+Used RAM: 8.7897 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:00:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12446115  #node_network_transmit_packets_total
+Network receive: 12535053  #node_network_receive_packets_total
+Used RAM: 8.78907 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:01:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12456273  #node_network_transmit_packets_total
+Network receive: 12545263  #node_network_receive_packets_total
+Used RAM: 8.78959 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:02:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12466430  #node_network_transmit_packets_total
+Network receive: 12555470  #node_network_receive_packets_total
+Used RAM: 8.78937 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:03:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12476590  #node_network_transmit_packets_total
+Network receive: 12565679  #node_network_receive_packets_total
+Used RAM: 8.78895 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:04:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12486750  #node_network_transmit_packets_total
+Network receive: 12575889  #node_network_receive_packets_total
+Used RAM: 8.78895 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:05:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12496909  #node_network_transmit_packets_total
+Network receive: 12586099  #node_network_receive_packets_total
+Used RAM: 8.78895 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:06:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12507069  #node_network_transmit_packets_total
+Network receive: 12596309  #node_network_receive_packets_total
+Used RAM: 8.7877 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:07:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12517229  #node_network_transmit_packets_total
+Network receive: 12606519  #node_network_receive_packets_total
+Used RAM: 8.78727 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:08:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12527388  #node_network_transmit_packets_total
+Network receive: 12616727  #node_network_receive_packets_total
+Used RAM: 8.78706 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:09:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12537546  #node_network_transmit_packets_total
+Network receive: 12626936  #node_network_receive_packets_total
+Used RAM: 8.78758 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:10:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12547705  #node_network_transmit_packets_total
+Network receive: 12637145  #node_network_receive_packets_total
+Used RAM: 8.78737 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:11:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12557865  #node_network_transmit_packets_total
+Network receive: 12647353  #node_network_receive_packets_total
+Used RAM: 8.79649 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:12:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12568013  #node_network_transmit_packets_total
+Network receive: 12657552  #node_network_receive_packets_total
+Used RAM: 8.78715 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:13:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12578173  #node_network_transmit_packets_total
+Network receive: 12667763  #node_network_receive_packets_total
+Used RAM: 8.78694 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:14:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12588329  #node_network_transmit_packets_total
+Network receive: 12677969  #node_network_receive_packets_total
+Used RAM: 8.78777 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:15:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12598489  #node_network_transmit_packets_total
+Network receive: 12688177  #node_network_receive_packets_total
+Used RAM: 8.78755 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:16:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12608644  #node_network_transmit_packets_total
+Network receive: 12698383  #node_network_receive_packets_total
+Used RAM: 8.78734 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:17:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12618799  #node_network_transmit_packets_total
+Network receive: 12708589  #node_network_receive_packets_total
+Used RAM: 8.79284 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:18:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12628957  #node_network_transmit_packets_total
+Network receive: 12718797  #node_network_receive_packets_total
+Used RAM: 8.79284 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:19:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12639116  #node_network_transmit_packets_total
+Network receive: 12729005  #node_network_receive_packets_total
+Used RAM: 8.79284 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:20:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12649272  #node_network_transmit_packets_total
+Network receive: 12739211  #node_network_receive_packets_total
+Used RAM: 8.68894 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:21:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12659432  #node_network_transmit_packets_total
+Network receive: 12749422  #node_network_receive_packets_total
+Used RAM: 8.68042 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:22:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12669593  #node_network_transmit_packets_total
+Network receive: 12759632  #node_network_receive_packets_total
+Used RAM: 8.7897 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:23:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12679748  #node_network_transmit_packets_total
+Network receive: 12769838  #node_network_receive_packets_total
+Used RAM: 8.7897 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:24:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12689908  #node_network_transmit_packets_total
+Network receive: 12780048  #node_network_receive_packets_total
+Used RAM: 8.78927 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:25:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12700065  #node_network_transmit_packets_total
+Network receive: 12790254  #node_network_receive_packets_total
+Used RAM: 8.78979 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:26:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12710221  #node_network_transmit_packets_total
+Network receive: 12800460  #node_network_receive_packets_total
+Used RAM: 8.58306 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:27:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12720378  #node_network_transmit_packets_total
+Network receive: 12810668  #node_network_receive_packets_total
+Used RAM: 8.76934 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:28:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12730537  #node_network_transmit_packets_total
+Network receive: 12820877  #node_network_receive_packets_total
+Used RAM: 8.78864 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:29:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12740695  #node_network_transmit_packets_total
+Network receive: 12831083  #node_network_receive_packets_total
+Used RAM: 8.78842 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:30:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12750853  #node_network_transmit_packets_total
+Network receive: 12841293  #node_network_receive_packets_total
+Used RAM: 8.78946 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:31:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12761013  #node_network_transmit_packets_total
+Network receive: 12851503  #node_network_receive_packets_total
+Used RAM: 8.78904 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:32:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12771173  #node_network_transmit_packets_total
+Network receive: 12861711  #node_network_receive_packets_total
+Used RAM: 8.79349 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:33:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12781331  #node_network_transmit_packets_total
+Network receive: 12871921  #node_network_receive_packets_total
+Used RAM: 8.79359 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:34:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12791490  #node_network_transmit_packets_total
+Network receive: 12882130  #node_network_receive_packets_total
+Used RAM: 8.79359 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:35:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12801650  #node_network_transmit_packets_total
+Network receive: 12892339  #node_network_receive_packets_total
+Used RAM: 8.79316 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:36:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12811807  #node_network_transmit_packets_total
+Network receive: 12902547  #node_network_receive_packets_total
+Used RAM: 8.79472 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:37:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12821967  #node_network_transmit_packets_total
+Network receive: 12912757  #node_network_receive_packets_total
+Used RAM: 8.79316 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:38:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12832126  #node_network_transmit_packets_total
+Network receive: 12922966  #node_network_receive_packets_total
+Used RAM: 8.7917 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:39:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12842285  #node_network_transmit_packets_total
+Network receive: 12933175  #node_network_receive_packets_total
+Used RAM: 8.7917 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:40:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12852443  #node_network_transmit_packets_total
+Network receive: 12943383  #node_network_receive_packets_total
+Used RAM: 8.79149 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:41:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12862601  #node_network_transmit_packets_total
+Network receive: 12953589  #node_network_receive_packets_total
+Used RAM: 8.79201 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:42:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12872756  #node_network_transmit_packets_total
+Network receive: 12963796  #node_network_receive_packets_total
+Used RAM: 8.79137 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:43:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12882913  #node_network_transmit_packets_total
+Network receive: 12974003  #node_network_receive_packets_total
+Used RAM: 8.79137 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:44:02 IDT 2020
+CPU Average: 0.08 #node cpu load 15 minutes average
+Network transmit: 12893074  #node_network_transmit_packets_total
+Network receive: 12984214  #node_network_receive_packets_total
+Used RAM: 8.79457 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:45:01 IDT 2020
+CPU Average: 0.07 #node cpu load 15 minutes average
+Network transmit: 12903235  #node_network_transmit_packets_total
+Network receive: 12994424  #node_network_receive_packets_total
+Used RAM: 8.79457 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:46:01 IDT 2020
+CPU Average: 0.06 #node cpu load 15 minutes average
+Network transmit: 12913395  #node_network_transmit_packets_total
+Network receive: 13004635  #node_network_receive_packets_total
+Used RAM: 8.79311 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:47:01 IDT 2020
+CPU Average: 0.06 #node cpu load 15 minutes average
+Network transmit: 12923550  #node_network_transmit_packets_total
+Network receive: 13014840  #node_network_receive_packets_total
+Used RAM: 8.79259 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:48:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12933709  #node_network_transmit_packets_total
+Network receive: 13025048  #node_network_receive_packets_total
+Used RAM: 8.79259 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:49:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12943868  #node_network_transmit_packets_total
+Network receive: 13035258  #node_network_receive_packets_total
+Used RAM: 8.7932 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:50:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12954025  #node_network_transmit_packets_total
+Network receive: 13045464  #node_network_receive_packets_total
+Used RAM: 8.7932 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:51:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12964181  #node_network_transmit_packets_total
+Network receive: 13055671  #node_network_receive_packets_total
+Used RAM: 8.79278 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:52:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12974342  #node_network_transmit_packets_total
+Network receive: 13065882  #node_network_receive_packets_total
+Used RAM: 8.79278 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:53:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12984500  #node_network_transmit_packets_total
+Network receive: 13076090  #node_network_receive_packets_total
+Used RAM: 8.79257 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:54:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 12994660  #node_network_transmit_packets_total
+Network receive: 13086300  #node_network_receive_packets_total
+Used RAM: 8.79153 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:55:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13004816  #node_network_transmit_packets_total
+Network receive: 13096506  #node_network_receive_packets_total
+Used RAM: 8.79132 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:56:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13014976  #node_network_transmit_packets_total
+Network receive: 13106715  #node_network_receive_packets_total
+Used RAM: 8.79089 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:57:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13025135  #node_network_transmit_packets_total
+Network receive: 13116925  #node_network_receive_packets_total
+Used RAM: 8.79193 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:58:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13035296  #node_network_transmit_packets_total
+Network receive: 13127135  #node_network_receive_packets_total
+Used RAM: 8.79172 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 14:59:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13045453  #node_network_transmit_packets_total
+Network receive: 13137343  #node_network_receive_packets_total
+Used RAM: 8.79773 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:00:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13055611  #node_network_transmit_packets_total
+Network receive: 13147550  #node_network_receive_packets_total
+Used RAM: 8.79285 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:01:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13065769  #node_network_transmit_packets_total
+Network receive: 13157759  #node_network_receive_packets_total
+Used RAM: 8.79752 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:02:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13075927  #node_network_transmit_packets_total
+Network receive: 13167966  #node_network_receive_packets_total
+Used RAM: 8.79658 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:03:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13086086  #node_network_transmit_packets_total
+Network receive: 13178176  #node_network_receive_packets_total
+Used RAM: 8.79636 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:04:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13096247  #node_network_transmit_packets_total
+Network receive: 13188386  #node_network_receive_packets_total
+Used RAM: 8.79594 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:05:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13106405  #node_network_transmit_packets_total
+Network receive: 13198594  #node_network_receive_packets_total
+Used RAM: 8.86754 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:06:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13116553  #node_network_transmit_packets_total
+Network receive: 13208793  #node_network_receive_packets_total
+Used RAM: 8.79624 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:07:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13126713  #node_network_transmit_packets_total
+Network receive: 13219002  #node_network_receive_packets_total
+Used RAM: 8.69299 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:08:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13136872  #node_network_transmit_packets_total
+Network receive: 13229212  #node_network_receive_packets_total
+Used RAM: 8.69049 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:09:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13147031  #node_network_transmit_packets_total
+Network receive: 13239421  #node_network_receive_packets_total
+Used RAM: 8.79478 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:10:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13157191  #node_network_transmit_packets_total
+Network receive: 13249630  #node_network_receive_packets_total
+Used RAM: 8.79332 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:11:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13167349  #node_network_transmit_packets_total
+Network receive: 13259838  #node_network_receive_packets_total
+Used RAM: 8.79332 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:12:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13177507  #node_network_transmit_packets_total
+Network receive: 13270047  #node_network_receive_packets_total
+Used RAM: 8.79799 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:13:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13187667  #node_network_transmit_packets_total
+Network receive: 13280257  #node_network_receive_packets_total
+Used RAM: 8.79839 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:14:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13197825  #node_network_transmit_packets_total
+Network receive: 13290465  #node_network_receive_packets_total
+Used RAM: 8.79839 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:15:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13207982  #node_network_transmit_packets_total
+Network receive: 13300672  #node_network_receive_packets_total
+Used RAM: 8.79817 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:16:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13218140  #node_network_transmit_packets_total
+Network receive: 13310878  #node_network_receive_packets_total
+Used RAM: 8.73258 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:17:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13228295  #node_network_transmit_packets_total
+Network receive: 13321085  #node_network_receive_packets_total
+Used RAM: 8.79339 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:18:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13238452  #node_network_transmit_packets_total
+Network receive: 13331291  #node_network_receive_packets_total
+Used RAM: 8.79442 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:19:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13248609  #node_network_transmit_packets_total
+Network receive: 13341499  #node_network_receive_packets_total
+Used RAM: 8.79909 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:20:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13258770  #node_network_transmit_packets_total
+Network receive: 13351710  #node_network_receive_packets_total
+Used RAM: 8.79888 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:21:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13268927  #node_network_transmit_packets_total
+Network receive: 13361917  #node_network_receive_packets_total
+Used RAM: 8.79919 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:22:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13279084  #node_network_transmit_packets_total
+Network receive: 13372124  #node_network_receive_packets_total
+Used RAM: 8.79898 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:23:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13289245  #node_network_transmit_packets_total
+Network receive: 13382334  #node_network_receive_packets_total
+Used RAM: 8.79877 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:24:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13299405  #node_network_transmit_packets_total
+Network receive: 13392544  #node_network_receive_packets_total
+Used RAM: 8.79855 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:25:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13309563  #node_network_transmit_packets_total
+Network receive: 13402751  #node_network_receive_packets_total
+Used RAM: 8.79855 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:26:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13319720  #node_network_transmit_packets_total
+Network receive: 13412960  #node_network_receive_packets_total
+Used RAM: 8.79709 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:27:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13329880  #node_network_transmit_packets_total
+Network receive: 13423170  #node_network_receive_packets_total
+Used RAM: 8.79709 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:28:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13340041  #node_network_transmit_packets_total
+Network receive: 13433381  #node_network_receive_packets_total
+Used RAM: 8.79709 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:29:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13350201  #node_network_transmit_packets_total
+Network receive: 13443590  #node_network_receive_packets_total
+Used RAM: 8.69393 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:30:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13360358  #node_network_transmit_packets_total
+Network receive: 13453797  #node_network_receive_packets_total
+Used RAM: 8.69121 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:31:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13370515  #node_network_transmit_packets_total
+Network receive: 13464004  #node_network_receive_packets_total
+Used RAM: 8.79996 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:32:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13380673  #node_network_transmit_packets_total
+Network receive: 13474213  #node_network_receive_packets_total
+Used RAM: 8.80048 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:33:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13390830  #node_network_transmit_packets_total
+Network receive: 13484420  #node_network_receive_packets_total
+Used RAM: 8.80027 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:34:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13400990  #node_network_transmit_packets_total
+Network receive: 13494630  #node_network_receive_packets_total
+Used RAM: 8.79923 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:35:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13411149  #node_network_transmit_packets_total
+Network receive: 13504839  #node_network_receive_packets_total
+Used RAM: 8.79881 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:36:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13421306  #node_network_transmit_packets_total
+Network receive: 13515046  #node_network_receive_packets_total
+Used RAM: 8.79829 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:37:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13431463  #node_network_transmit_packets_total
+Network receive: 13525250  #node_network_receive_packets_total
+Used RAM: 8.79963 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:38:02 IDT 2020
+CPU Average: 0.06 #node cpu load 15 minutes average
+Network transmit: 13441616  #node_network_transmit_packets_total
+Network receive: 13535453  #node_network_receive_packets_total
+Used RAM: 8.80098 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:39:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13451770  #node_network_transmit_packets_total
+Network receive: 13545660  #node_network_receive_packets_total
+Used RAM: 8.79869 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:40:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13461924  #node_network_transmit_packets_total
+Network receive: 13555864  #node_network_receive_packets_total
+Used RAM: 8.79848 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:41:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13472083  #node_network_transmit_packets_total
+Network receive: 13566073  #node_network_receive_packets_total
+Used RAM: 8.79848 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:42:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13482244  #node_network_transmit_packets_total
+Network receive: 13576284  #node_network_receive_packets_total
+Used RAM: 8.79723 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:43:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13492405  #node_network_transmit_packets_total
+Network receive: 13586494  #node_network_receive_packets_total
+Used RAM: 8.7968 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:44:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13502564  #node_network_transmit_packets_total
+Network receive: 13596703  #node_network_receive_packets_total
+Used RAM: 8.79637 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:45:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13512723  #node_network_transmit_packets_total
+Network receive: 13606913  #node_network_receive_packets_total
+Used RAM: 8.79741 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:46:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13522882  #node_network_transmit_packets_total
+Network receive: 13617122  #node_network_receive_packets_total
+Used RAM: 8.79897 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:47:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13533043  #node_network_transmit_packets_total
+Network receive: 13627333  #node_network_receive_packets_total
+Used RAM: 8.79876 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:48:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13543201  #node_network_transmit_packets_total
+Network receive: 13637540  #node_network_receive_packets_total
+Used RAM: 8.79854 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:49:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13553360  #node_network_transmit_packets_total
+Network receive: 13647750  #node_network_receive_packets_total
+Used RAM: 8.80352 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:50:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13563518  #node_network_transmit_packets_total
+Network receive: 13657957  #node_network_receive_packets_total
+Used RAM: 8.86713 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:51:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13573672  #node_network_transmit_packets_total
+Network receive: 13668162  #node_network_receive_packets_total
+Used RAM: 8.69206 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:52:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13583833  #node_network_transmit_packets_total
+Network receive: 13678373  #node_network_receive_packets_total
+Used RAM: 8.68977 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:53:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13593993  #node_network_transmit_packets_total
+Network receive: 13688581  #node_network_receive_packets_total
+Used RAM: 8.79904 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:54:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13604150  #node_network_transmit_packets_total
+Network receive: 13698790  #node_network_receive_packets_total
+Used RAM: 8.79904 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:55:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13614310  #node_network_transmit_packets_total
+Network receive: 13709000  #node_network_receive_packets_total
+Used RAM: 8.83745 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:56:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13624465  #node_network_transmit_packets_total
+Network receive: 13719204  #node_network_receive_packets_total
+Used RAM: 8.7984 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:57:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13634626  #node_network_transmit_packets_total
+Network receive: 13729416  #node_network_receive_packets_total
+Used RAM: 8.7984 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:58:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13644785  #node_network_transmit_packets_total
+Network receive: 13739625  #node_network_receive_packets_total
+Used RAM: 8.79746 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 15:59:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13654939  #node_network_transmit_packets_total
+Network receive: 13749829  #node_network_receive_packets_total
+Used RAM: 8.79798 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:00:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13665099  #node_network_transmit_packets_total
+Network receive: 13760039  #node_network_receive_packets_total
+Used RAM: 8.80347 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:01:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13675259  #node_network_transmit_packets_total
+Network receive: 13770249  #node_network_receive_packets_total
+Used RAM: 8.8043 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:02:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13685419  #node_network_transmit_packets_total
+Network receive: 13780457  #node_network_receive_packets_total
+Used RAM: 8.80408 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:03:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13695574  #node_network_transmit_packets_total
+Network receive: 13790663  #node_network_receive_packets_total
+Used RAM: 8.80408 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:04:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13705730  #node_network_transmit_packets_total
+Network receive: 13800870  #node_network_receive_packets_total
+Used RAM: 8.80387 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:05:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13715890  #node_network_transmit_packets_total
+Network receive: 13811079  #node_network_receive_packets_total
+Used RAM: 8.80345 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:06:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13726047  #node_network_transmit_packets_total
+Network receive: 13821287  #node_network_receive_packets_total
+Used RAM: 8.59412 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:07:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13736204  #node_network_transmit_packets_total
+Network receive: 13831494  #node_network_receive_packets_total
+Used RAM: 8.78715 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:08:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13746365  #node_network_transmit_packets_total
+Network receive: 13841705  #node_network_receive_packets_total
+Used RAM: 8.79991 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:09:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13756522  #node_network_transmit_packets_total
+Network receive: 13851910  #node_network_receive_packets_total
+Used RAM: 8.80095 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:10:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13766678  #node_network_transmit_packets_total
+Network receive: 13862115  #node_network_receive_packets_total
+Used RAM: 8.80073 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:11:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13776833  #node_network_transmit_packets_total
+Network receive: 13872323  #node_network_receive_packets_total
+Used RAM: 8.80052 #Used RAM
+Uptime: 0.6 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:12:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13786994  #node_network_transmit_packets_total
+Network receive: 13882534  #node_network_receive_packets_total
+Used RAM: 8.97517 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:13:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13797148  #node_network_transmit_packets_total
+Network receive: 13892738  #node_network_receive_packets_total
+Used RAM: 8.80009 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:14:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13807308  #node_network_transmit_packets_total
+Network receive: 13902947  #node_network_receive_packets_total
+Used RAM: 8.86215 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:15:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13817466  #node_network_transmit_packets_total
+Network receive: 13913156  #node_network_receive_packets_total
+Used RAM: 8.69507 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:16:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13827627  #node_network_transmit_packets_total
+Network receive: 13923367  #node_network_receive_packets_total
+Used RAM: 8.69351 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:17:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13837787  #node_network_transmit_packets_total
+Network receive: 13933577  #node_network_receive_packets_total
+Used RAM: 8.80278 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:18:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13847946  #node_network_transmit_packets_total
+Network receive: 13943785  #node_network_receive_packets_total
+Used RAM: 8.80257 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:19:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13858104  #node_network_transmit_packets_total
+Network receive: 13953994  #node_network_receive_packets_total
+Used RAM: 8.80215 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:20:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13868265  #node_network_transmit_packets_total
+Network receive: 13964204  #node_network_receive_packets_total
+Used RAM: 8.80215 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:21:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13878424  #node_network_transmit_packets_total
+Network receive: 13974414  #node_network_receive_packets_total
+Used RAM: 8.80215 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:22:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13888584  #node_network_transmit_packets_total
+Network receive: 13984623  #node_network_receive_packets_total
+Used RAM: 8.80246 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:23:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13898743  #node_network_transmit_packets_total
+Network receive: 13994833  #node_network_receive_packets_total
+Used RAM: 8.80224 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:24:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13908902  #node_network_transmit_packets_total
+Network receive: 14005042  #node_network_receive_packets_total
+Used RAM: 8.80203 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:25:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13919063  #node_network_transmit_packets_total
+Network receive: 14015252  #node_network_receive_packets_total
+Used RAM: 8.80264 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:26:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13929223  #node_network_transmit_packets_total
+Network receive: 14025463  #node_network_receive_packets_total
+Used RAM: 8.80243 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:27:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13939383  #node_network_transmit_packets_total
+Network receive: 14035672  #node_network_receive_packets_total
+Used RAM: 8.80149 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:28:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13949542  #node_network_transmit_packets_total
+Network receive: 14045881  #node_network_receive_packets_total
+Used RAM: 8.80149 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:29:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13959702  #node_network_transmit_packets_total
+Network receive: 14056092  #node_network_receive_packets_total
+Used RAM: 8.80127 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:30:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13969862  #node_network_transmit_packets_total
+Network receive: 14066298  #node_network_receive_packets_total
+Used RAM: 8.80802 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:31:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13980012  #node_network_transmit_packets_total
+Network receive: 14076501  #node_network_receive_packets_total
+Used RAM: 8.79981 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:32:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 13990172  #node_network_transmit_packets_total
+Network receive: 14086712  #node_network_receive_packets_total
+Used RAM: 8.80167 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:33:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14000333  #node_network_transmit_packets_total
+Network receive: 14096922  #node_network_receive_packets_total
+Used RAM: 8.80198 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:34:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14010492  #node_network_transmit_packets_total
+Network receive: 14107131  #node_network_receive_packets_total
+Used RAM: 8.80042 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:35:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14020651  #node_network_transmit_packets_total
+Network receive: 14117340  #node_network_receive_packets_total
+Used RAM: 8.80644 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:36:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14030808  #node_network_transmit_packets_total
+Network receive: 14127547  #node_network_receive_packets_total
+Used RAM: 8.80622 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:37:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14040966  #node_network_transmit_packets_total
+Network receive: 14137755  #node_network_receive_packets_total
+Used RAM: 8.80311 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:38:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14051125  #node_network_transmit_packets_total
+Network receive: 14147964  #node_network_receive_packets_total
+Used RAM: 8.86993 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:39:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14061284  #node_network_transmit_packets_total
+Network receive: 14158174  #node_network_receive_packets_total
+Used RAM: 8.81025 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:40:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14071445  #node_network_transmit_packets_total
+Network receive: 14168384  #node_network_receive_packets_total
+Used RAM: 8.80308 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:41:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14081605  #node_network_transmit_packets_total
+Network receive: 14178595  #node_network_receive_packets_total
+Used RAM: 8.80205 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:42:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14091765  #node_network_transmit_packets_total
+Network receive: 14188805  #node_network_receive_packets_total
+Used RAM: 8.80391 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:43:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14101925  #node_network_transmit_packets_total
+Network receive: 14199014  #node_network_receive_packets_total
+Used RAM: 8.80183 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:44:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14112082  #node_network_transmit_packets_total
+Network receive: 14209222  #node_network_receive_packets_total
+Used RAM: 8.80837 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:45:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14122242  #node_network_transmit_packets_total
+Network receive: 14219432  #node_network_receive_packets_total
+Used RAM: 8.80815 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:46:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14132402  #node_network_transmit_packets_total
+Network receive: 14229640  #node_network_receive_packets_total
+Used RAM: 8.80691 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:47:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14142559  #node_network_transmit_packets_total
+Network receive: 14239849  #node_network_receive_packets_total
+Used RAM: 8.80669 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:48:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14152718  #node_network_transmit_packets_total
+Network receive: 14250058  #node_network_receive_packets_total
+Used RAM: 8.80306 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:49:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14162879  #node_network_transmit_packets_total
+Network receive: 14260269  #node_network_receive_packets_total
+Used RAM: 8.80834 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:50:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14173035  #node_network_transmit_packets_total
+Network receive: 14270475  #node_network_receive_packets_total
+Used RAM: 8.80834 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:51:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14183195  #node_network_transmit_packets_total
+Network receive: 14280685  #node_network_receive_packets_total
+Used RAM: 8.8045 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:52:02 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14193356  #node_network_transmit_packets_total
+Network receive: 14290896  #node_network_receive_packets_total
+Used RAM: 8.80813 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64
+Date: Fri May 22 16:53:01 IDT 2020
+CPU Average: 0.05 #node cpu load 15 minutes average
+Network transmit: 14203515  #node_network_transmit_packets_total
+Network receive: 14301104  #node_network_receive_packets_total
+Used RAM: 8.80749 #Used RAM
+Uptime: 0.7 #In days
+Kernel version: 3.10.0-1062.12.1.el7.x86_64

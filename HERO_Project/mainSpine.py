@@ -55,7 +55,7 @@ def getVmResult(vm: str, dataConn: dataAccess.dataAccess) -> [(str, str)]:
             vm_data = dataConn.loader(vm=vm, fileName=vmsDict[vm], state='on')
             results = tests.getVmResults(vm, vm_data, 'on')
             return results
-    return
+    return {}
 
 
 def CheckPastResults(dataConn: dataAccess.dataAccess):
@@ -73,7 +73,8 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
     # convert from array triple to object
     for rzVm in real_zombies:
         arr = {}
-        for (i, j) in getVmResult(rzVm, dataConn).items():
+        resultsDict = getVmResult(rzVm, dataConn)
+        for (i, j) in resultsDict.items():
             arr[i] = j
         listRzVm.append(arr)
 

@@ -72,11 +72,11 @@ class remoteConn:
             channel = self.login()
         if self.virt == 'kvm':
             if typ == 'all':
-                return self.executer('virsh list --all --name', channel).split()[4:-2]
+                return self.executer('virsh list --all --name', channel).split()[3:-2]
             if typ == 'active':
-                return self.executer('virsh list --name', channel).split()[4:-2]
+                return self.executer('virsh list --name', channel).split()[3:-2]
             if type == 'inactive':
-                return self.executer('virsh list --inactive --name', channel).split()[4:-2]
+                return self.executer('virsh list --inactive --name', channel).split()[3:-2]
 
     def associateIps(self, vms):
         vmsDict = {}
