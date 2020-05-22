@@ -1,6 +1,7 @@
 import re
 from datetime import datetime
 import HERO_Project.testConfiguration as test_config
+import HERO_Project.configuration as config
 from HERO_Project.Hardware.CPU.CpuCheck import CpuCheck
 from HERO_Project.Hardware.NetworkCard.NetworkCardCheck import networkCheck
 from HERO_Project.Hardware.RAM.RamCheck import RamCheck
@@ -13,10 +14,10 @@ def testVM(stats, state):
     sum = 0
     if state == "on":
         for par in test_list.values():
-            sum += par['func'](stats[par['name']]) * test_config.weights[par['name']]
-        sum += nameTest(stats['vm_name']) * test_config.weights['name']
+            sum += par['func'](stats[par['name']]) * config.weights[par['name']]
+        sum += nameTest(stats['vm_name']) * config.weights['name']
     elif state == "off":
-        sum += nameTest(stats['vm_name']) * test_config.weights['name']
+        sum += nameTest(stats['vm_name']) * config.weights['name']
     return sum
 
 

@@ -1,2 +1,13 @@
+test08
+prod04
+prod08
+test07
+prod02
+prod01
 bigtest
 test01
+prod05
+test04
+prod03
+test06
+pre-prod04

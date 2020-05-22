@@ -1,10 +1,6 @@
 ## Test configuration ##
 # Must be edited if new tests are added.
 
-
-# the higher the number, the more influence that test will have.
-weights = {'cpu': 3, 'net': 3, 'ram': 3, 'name': 2, 'age':2, 'uptime':1, 'ver':2, 'boot':2}
-
 # tests:
 # cpu check
 

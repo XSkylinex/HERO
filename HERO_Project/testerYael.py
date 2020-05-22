@@ -14,7 +14,7 @@ if __name__ == '__main__':
     zombies = []
     result = []
     # vms = dataConn.clearVms(remConn.getVMs('active'))
-    vms = ['test01', 'test02', 'test03']
+    vms = dataConn.clearVms(remConn.getVMs('active'))
     vmsDict = remConn.associateIps(vms)
 
     for (vm, ip) in vmsDict.items():
