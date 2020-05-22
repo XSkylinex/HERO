@@ -6,8 +6,8 @@
 
 # network check
 #todo: check
-in_min_day_load = 10091775 # packets received
-out_min_day_load = 10819578 # packets transmitted
+in_min_day_load = 1000000 # packets received
+out_min_day_load = 1000000 # packets transmitted
 
 # ram check
 

@@ -29,20 +29,19 @@ def CheckEveryServer(zombies, result, dataConn):
                 zombies.append(vm)
 
 
-
 def VmResults(vm: str, dataConn):
     # todo: make it work for not-active servers too
     for serv in config.server_ips:
         RemConn = remoteAccess.remoteConn(ip=serv, virt=config.virtTech)
         vmsDict = RemConn.associateIps(RemConn.getVMs('active'))
         if vm in vmsDict:
-            print(vmsDict[vm])
+            print("ip address", vmsDict[vm])
             vm_data = dataConn.loader(vm=vm, fileName=vmsDict[vm], state='on')
             score = tests.testVM(vm_data, "on")
-            print(score)
+            print("score", score)
             print("\n")
             results = tests.getVmResults(vm, vm_data, 'on')
-            print(results)
+            print("results", results)
             dataConn.saveVmResults(vm_name=vm, score=score, results=results)
             return True
     return False
@@ -85,8 +84,8 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
             arr[i] = j
         listSusVm.append(arr)
 
-    #("list of real zombie", listRzVm)
-    #("list of sus zombile", listSusVm)
+    # ("list of real zombie", listRzVm)
+    # ("list of sus zombile", listSusVm)
 
     print(config.weights, "before")
 
@@ -188,7 +187,6 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
                 nw += nwe + '}\n'
     with open('configuration.py', 'w') as file:
         file.write(nw)
-
 
 
 if __name__ == '__main__':

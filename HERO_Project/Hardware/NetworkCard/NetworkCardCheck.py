@@ -14,7 +14,7 @@ def networkCheck(data, in_min, out_min):
         if cur.startswith('Date:'):
             if cur != newDate:
                 day.reverse()
-                count += checkDay(day,in_min,out_min)
+                count += checkDay(day, in_min, out_min)
                 day = []
                 newDate = cur
         else:
@@ -36,25 +36,21 @@ def checkDay(day, in_min, out_min):
         if transStart != -1 and recvStart != -1:
             break
 
-    while (day):
-        cur = day.pop()
-        if cur.startswith('Network transmit:') and transEnd == -1:
-            transEnd = int(cur.split(':')[1].strip())
-        if cur.startswith('Network transmit:') and recvEnd == -1:
-            recvEnd = int(cur.split(':')[1].strip())
+    day.reverse()
+
+    for line in day:
+        if line.startswith('Network transmit:') and transEnd == -1:
+            transEnd = int(line.split(':')[1].strip())
+        if line.startswith('Network receive:') and recvEnd == -1:
+            recvEnd = int(line.split(':')[1].strip())
         if transEnd != -1 and recvEnd != -1:
             break
 
     if transStart < transEnd and transEnd - transStart < out_min:
-       # print('transmit start: {0}'.format(transStart))
-       # print('transmit end: {0}'.format(transEnd))
         add += 1
-    if recvStart < recvEnd and recvEnd - recvStart < in_min:
-       # print('receive start: {0}'.format(recvStart))
-      #  print('receive end: {0}'.format(recvEnd))
+    if recvStart < recvEnd and recvEnd - recvStart < in_min:\
         add += 1
     return add
-
 
 
 def cutTime(data):
