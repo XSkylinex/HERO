@@ -82,7 +82,7 @@ class remoteConn:
         vmsDict = {}
         if self.virt == 'kvm':
             channel = self.login()
-            output = self.executer('virsh net-dhcp-leases default', channel).split('\r\n')[4:-2]
+            output = self.executer('virsh net-dhcp-leases default', channel).split('\r\n')[3:-2]
             for line in output:
                 lst = line.split('ipv4')[1][:-1].split()
                 (vm, ip) = (lst[1], lst[0])
