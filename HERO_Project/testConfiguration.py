@@ -10,8 +10,8 @@ weights = {'cpu': 3, 'net': 3, 'ram': 3, 'name': 2, 'age':2, 'uptime':1, 'ver':2
 
 # network check
 #todo: check
-in_min_day_load = 6000 # packets received
-out_min_day_load = 4000 # packets transmitted
+in_min_day_load = 1 # packets received
+out_min_day_load = 1 # packets transmitted
 
 # ram check
 

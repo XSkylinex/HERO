@@ -80,8 +80,8 @@ def CheckPastResults(dataConn: dataAccess.dataAccess):
             arr[i] = j
         listSusVm.append(arr)
 
-    #print("list of real zombie", listRzVm)
-    #print("list of sus zombile", listSusVm)
+    ("list of real zombie", listRzVm)
+    ("list of sus zombile", listSusVm)
 
     print(config.weights, "before")
 
